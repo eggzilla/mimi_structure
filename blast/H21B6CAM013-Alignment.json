@@ -1,0 +1,2742 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastn",
+      "version": "BLASTN 2.12.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "GPIPE/1041015/101/ref_top_level GPIPE/104688/101/ref_top_level GPIPE/125945/101/ref_top_level GPIPE/129105/100/ref_top_level GPIPE/13632/100/ref_top_level GPIPE/139649/100/ref_top_level GPIPE/1486046/100/ref_top_level GPIPE/1518534/100/ref_top_level GPIPE/174628/100/ref_top_level GPIPE/198719/100/ref_top_level GPIPE/265458/100/ref_top_level GPIPE/27457/102/ref_top_level GPIPE/28584/102/ref_top_level GPIPE/28588/101/ref_top_level GPIPE/28610/100/ref_top_level GPIPE/28612/100/ref_top_level GPIPE/29029/102/ref_top_level GPIPE/29030/101/ref_top_level GPIPE/30019/101/ref_top_level GPIPE/30023/102/ref_top_level GPIPE/30025/101/ref_top_level GPIPE/30033/102/ref_top_level GPIPE/30066/100/ref_top_level GPIPE/30069/100/ref_top_level GPIPE/343691/100/ref_top_level GPIPE/35570/100/ref_top_level GPIPE/38358/100/ref_top_level GPIPE/42026/101/ref_top_level GPIPE/42434/100/ref_top_level GPIPE/47314/100/ref_top_level GPIPE/59916/100/ref_top_level GPIPE/7159/101/ref_top_level GPIPE/7160/102/ref_top_level GPIPE/7167/100/ref_top_level GPIPE/7173/100/ref_top_level GPIPE/7176/100/ref_top_level GPIPE/7213/103/ref_top_level GPIPE/7217/101/ref_top_level GPIPE/7220/101/ref_top_level GPIPE/7222/102/ref_top_level GPIPE/7224/101/ref_top_level GPIPE/7225/100/ref_top_level GPIPE/7226/100/ref_top_level GPIPE/7227/106/ref_top_level GPIPE/7229/102/ref_top_level GPIPE/7230/101/ref_top_level GPIPE/7232/101/ref_top_level GPIPE/7234/101/ref_top_level GPIPE/7237/104/ref_top_level GPIPE/7238/101/ref_top_level GPIPE/7240/102/ref_top_level GPIPE/7241/100/ref_top_level GPIPE/7244/103/ref_top_level GPIPE/7245/101/ref_top_level GPIPE/7260/101/ref_top_level GPIPE/7263/100/ref_top_level GPIPE/7266/100/ref_top_level GPIPE/7274/100/ref_top_level GPIPE/7282/101/ref_top_level GPIPE/7291/100/ref_top_level GPIPE/7370/102/ref_top_level GPIPE/7375/100/ref_top_level GPIPE/7396/100/ref_top_level genomic/180454/GCF_000005575.2"
+      },
+      "params": {
+        "expect": 0.05,
+        "sc_match": 2,
+        "sc_mismatch": -3,
+        "gap_open": 5,
+        "gap_extend": 2,
+        "filter": "L;m;",
+        "entrez_query": "txid7147 [ORGN]"
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_36799",
+          "query_len": 1063,
+          "query_masking": [
+            {
+              "from": 355,
+              "to": 385
+            },
+            {
+              "from": 913,
+              "to": 1000
+            }
+          ],
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gi|671162122|ref|NT_033777.3|",
+                  "accession": "NT_033777",
+                  "title": "Drosophila melanogaster chromosome 3R",
+                  "taxid": 7227,
+                  "sciname": "Drosophila melanogaster"
+                }
+              ],
+              "len": 32079331,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1918.27,
+                  "score": 2126,
+                  "evalue": 0,
+                  "identity": 1063,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 23983503,
+                  "hit_to": 23984565,
+                  "hit_strand": "Plus",
+                  "align_len": 1063,
+                  "gaps": 0,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTGTGGGGGTGGGGTGTGGGGCGGCTGGGTGGGAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTAAAAACAAAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gi|1967468029|ref|NC_052523.1|",
+                  "accession": "NC_052523",
+                  "title": "Drosophila simulans strain w501 chromosome 3R, Prin_Dsim_3.0",
+                  "taxid": 7240,
+                  "sciname": "Drosophila simulans"
+                }
+              ],
+              "len": 28149624,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1791.13,
+                  "score": 1985,
+                  "evalue": 0,
+                  "identity": 1035,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 20206768,
+                  "hit_to": 20207826,
+                  "hit_strand": "Plus",
+                  "align_len": 1063,
+                  "gaps": 4,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAATGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCAACCCATCCCTGGCACACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCATCAAAAACCGGATAAACCATTGAGCGCGGGACGCACTCGGCTGCAGGTCCGCCGCCCAAACAAGGTCACACCGAGAGGCACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTGGTCTCGCCCCCTGCGAATCCGCTTGTGGATTTGGGGGGGTGGGGTATGGGGCGGCTGGGTGGGAGTTTGATCTTAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATCCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCCCCGGCGTCCTTGGCGACGCGGCGTCGTCATCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTAAAAACAAAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTG----AAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||||||| ||||||||||||||||||||||||||||||||||||||||   ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| | || ||||||| |||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||| |||||| |||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gi|1829008042|ref|NC_046670.1|",
+                  "accession": "NC_046670",
+                  "title": "Drosophila mauritiana strain mau12 chromosome 3R, ASM438214v1",
+                  "taxid": 7226,
+                  "sciname": "Drosophila mauritiana"
+                }
+              ],
+              "len": 28872862,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1760.47,
+                  "score": 1951,
+                  "evalue": 0,
+                  "identity": 1028,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 20931002,
+                  "hit_to": 20932054,
+                  "hit_strand": "Plus",
+                  "align_len": 1063,
+                  "gaps": 10,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCAACCCATCCCTGGCACACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCATCAAAAACCGGATAAACCATTGAGCGCGGGACGCACTCGGCTGCGGGTCCGCCGCCCAAACAAGGTCACACCGAGAGGCACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTGGTCTCGCCCCCTGCGAATCCGCATGCGGACTTGTGGGGGTGGGGTATGGGGCGGCTGGGTGGGAGTTTGATCTTAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATCCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCATGGCGACGCGGCGTCGTCATCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTT------AAAAACAAAATGAAAAACCAAAACCTAATAATGAAAAACAAAATATGAAAACACACAAAACACTG----AAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| | || ||||||| ||||||||||||||||||||||||||||||  ||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||| |||||| ||||||||||| |||||| ||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||      ||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gi|1814026058|ref|NC_045952.1|",
+                  "accession": "NC_045952",
+                  "title": "Drosophila sechellia strain sech25 chromosome 3R, ASM438219v1",
+                  "taxid": 7238,
+                  "sciname": "Drosophila sechellia"
+                }
+              ],
+              "len": 30464902,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1643.25,
+                  "score": 1821,
+                  "evalue": 0,
+                  "identity": 995,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 22528594,
+                  "hit_to": 22529611,
+                  "hit_strand": "Plus",
+                  "align_len": 1063,
+                  "gaps": 45,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGCCCATCCCTGGCACACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCATCAAAAACCGGATAAACCATTGAGCGCGGGACGCACTCGGCTGCAGGTCCGCCGCCCAAACAAGGTCACACCGAGAGGCACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTGGTCTCGCCCCCTGCGAATCCGCATGCGGATTTGTGGGGGTGGGGTATGGGGCGGCTGGGTGGGAGTTTGATCTTAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATCCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCCCCGGCGTCGTTGGCGACGCGGCGTCGTCATCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATTGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTAAAAACAAA-----------------------------------------ATGAATACACACAAAACACTG----AAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| | || ||||||| |||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| ||| |||||| ||||||||||| |||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||                                         ||||| |||||||||||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gi|1500055027|ref|NW_020825194.1|",
+                  "accession": "NW_020825194",
+                  "title": "Drosophila erecta strain 14021-0224.00,06,07 unplaced genomic scaffold, DereRS2 tig00000000-arrow-pilon",
+                  "taxid": 7220,
+                  "sciname": "Drosophila erecta"
+                }
+              ],
+              "len": 28426653,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1640.55,
+                  "score": 1818,
+                  "evalue": 0,
+                  "identity": 1006,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 8464252,
+                  "hit_to": 8463191,
+                  "hit_strand": "Minus",
+                  "align_len": 1067,
+                  "gaps": 9,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTT-AACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTg-tgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACAC--GAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGCCCATCCCTGGCACACTACACCAAGCGACGACGTGACCCAGCTGGGTGCGGGAATAGCCGGATCCGGCCATCAAAAACCGGATAAACCATTGAGGGCGGGACGCACTCGGCTGCAGGTCCGCCGCCCAAACAAGGTCACACCGAGAGACACATGTCCACGAACAGACCAGAGTTTTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCCAAATTCAAGCCCATTCTGTCCTGGCTCCGCCCCCTTCCGATTCCGTATGCGAATTAGGTGGGGGTGGGGTGTGGGGCGGACGGGTGGGAGTTTGATCTTTACACAAACACACGAAACCAAACAGAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATCCGGCAGAGATCGGAAGACACGCCCGACACCACCAGCCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCGAGATTGCGTAGCCCTCGGCGTCCTAGGCGGCGCGGCGTCGTCATCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTGACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTAAAAACA-----AAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAGAAAACCAAAAGTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||| |||||||| |||| ||||| ||||||||||||||||||||||||||| | || ||||||| ||||||||||| |||||||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||| || ||||    |||  |||||| ||| ||||  |||| ||| | |||||||||||||||||||||  |||||||||||||||| | ||||||||||  ||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| | | |||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||  ||||||||| |||| |||| ||||||| ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gi|1988234280|ref|NC_053019.1|",
+                  "accession": "NC_053019",
+                  "title": "Drosophila santomea strain STO CAGO 1482 chromosome 3R, Prin_Dsan_1.0",
+                  "taxid": 129105,
+                  "sciname": "Drosophila santomea"
+                }
+              ],
+              "len": 29036999,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1570.22,
+                  "score": 1740,
+                  "evalue": 0,
+                  "identity": 995,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 26746326,
+                  "hit_to": 26745268,
+                  "hit_strand": "Minus",
+                  "align_len": 1068,
+                  "gaps": 14,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTT--AACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtggggg-tggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCC-TTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaa-caaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGCCCATCCCTGGCACACTACACAAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGTCATCAAAGAGCCGGATAAACCATTGCGGGCGGGACGCACTCGGCTGCTGGTCCGCCGCCCAAACAAGGTCACACCGAGAGACACATGTCCACGAACAGACCAGAGTTTTTCCCGCCATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCCAAATTCAAGCCCATTCTGTCC-TGGCTCCGCCCCCCTCGATTCCCGGTGCGGATTAGTGGGGGGTGGGGTGTGGGGCGAACGGGTGGGAGTTTGATCTTAT---ACACACGAAACCAAA---AACACAACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCACATCCGGCAGAGATCGGAGGACACGCCCGCAACCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAAC-TATGATTTTGCTTTACGATTCGACCCACTATCATCCCAAATTGCGTAGCCCTCGGCGTCCATTGGCGGCGCGGCGTCGTCATCCGGACCATCCTCCAGGACGCCTTCCAAAATTGGCGTTAACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTTCGTTTTTTGAATGTATTTAAAAACAAAAATGAAAA-AAAAACCAAAACCAAATAATGAAAAAACAAAATATGAAAACACACAAAACACTGAAAACAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||| | |  || | ||||| ||||||||| | ||||||||||||||||||  ||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||| || |||| | |  |||||||   ||| |||   |||||||| ||||||| ||||||||||||||   |||||||||||||||| ||    | |||||||||||||   ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||| | ||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||  |||||||| |||||| |||| ||||||| ||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||  |||  |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gi|1967468118|ref|NC_052530.1|",
+                  "accession": "NC_052530",
+                  "title": "Drosophila yakuba strain Tai18E2 chromosome 3R, Prin_Dyak_Tai18E2_2.0",
+                  "taxid": 7245,
+                  "sciname": "Drosophila yakuba"
+                }
+              ],
+              "len": 30730878,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1559.4,
+                  "score": 1728,
+                  "evalue": 0,
+                  "identity": 999,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 28543128,
+                  "hit_to": 28542054,
+                  "hit_strand": "Minus",
+                  "align_len": 1079,
+                  "gaps": 20,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAA--CCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtggggg-tggggtgtggggcggctgggtgggAGTTTGATCATA-----ACACAA---ACACGAAACCAAACC---AAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCC-TTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatg-aaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGCCCATCCCTGGCACACTACACAAAGCGACGGCGTTGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGTCATCAAAGTGCCGGATAAACCATTGAGGGCGGGACGCACTCGGCTGCTGGTCCGCCGCCCAAACAAGGTCACACCGAGAGACACATGTCCACGAACAGACCAGAGTTTTTCCCGCCATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCCAAATTCAAGCCCATTCTGTCCTGGCTCCGTCCCCCT-CGATTCCCGGTGCGGATTAGTGGGGGGTGGGGTGTGGGGCGGACGGGTGGGAGTTTGATCTTATATACACACGATACACACGAAACCAAAACCAAAAACACAACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCACATCCGGCAGAGATCGGAGGACACGCCCGCAACCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAA-CTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAAATTGCGTAGCCCTCGGCGTCCTTTGGCGGCGCGGCGTCGTCATCCGGACCATCCTCCAGGACGCCTTCCAAAATTGGCGTTAACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTTCGTTTTTTGAATGTATTTAAAAACCAAAATGAAA--AAAAACCAAAACCAAATAATGAAAAAACAAAATATGAAAACACACAAAACACTGAAAACAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||| |||||||||||| |||||||||||||||||||||||||||||||| | | | |   ||||| ||||||||||| ||||||||||||||||||  ||| ||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||||||| || ||||    |||  |||| | ||| |||   |||||||| ||||||| |||||||||||||||  |||||||||||||||| ||     |||| |   ||||||||||||| |   |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||| | ||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||  |||||||| |||||| |||| ||||||| ||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||| ||||  |||  ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gi|2045041919|ref|NW_024573645.1|",
+                  "accession": "NW_024573645",
+                  "title": "Drosophila eugracilis isolate 14026-0451.02 unplaced genomic scaffold, ASM1815383v1 contig_75",
+                  "taxid": 29029,
+                  "sciname": "Drosophila eugracilis"
+                }
+              ],
+              "len": 4100517,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1293.4,
+                  "score": 1433,
+                  "evalue": 0,
+                  "identity": 931,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 2888993,
+                  "hit_to": 2887971,
+                  "hit_strand": "Minus",
+                  "align_len": 1066,
+                  "gaps": 46,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGA-AAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCT--TCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGATCGAGTGCGGATCCCTTGCCCTAGCGGCTATTCGCCTGCGCACTTGGTCCATCCCTGGCACACTACACAAAGTGACGACGTGGCCCAGTTGGGTGCGAGAATAGCCGGATCCGGT-TAAATGCCCGGATAAAACCATTAAGAGCGGGGCGCACTCGGCTGTTGGTCCGCCGCCCACACAAGGTCACACGACGGGACACACGACCACAAACAGACCAGAGTTTTTCCCGGAAGCTGTCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCTTGGCAGTGTTCACCAAAATCCAAATCCAAGCCCTCTCTG---CTGGCCCCGCCAA---CGGATCCGGATACGGATTTGCTGG--TGGGGTGTGTGGCAG---GGCGGGAGTTTGAGCTTAACACACATAC---ACCAAACAGAACACCACC---CTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCT-GCCATTTATGGCAGAGATCGGAGGACACGCCCGGCGCAACCAGCCGTTGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAA----AACCTATGATTTTGCTTTACAATTCGACCTACTATCATCCCAAATTGCGTAGCCATCGGCGTCCTTGGCGACGTGGCGTCGTCATCCGGCCCATCCTCCAGGATGCCAAATCCAAAATTGGCATTAGCTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTTTAATCGCCTCATTTCGTACAAAGAAAAACCGCAACAAAAAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTAAAAA-AAAAAAAAAAT-----------------AAATGAAAAACAAAATATGAAAACACACAAAACAC--AGAAAGAAAACAAAAAATAGGATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "|||| ||||||||||||||||||||| |||||||||||||||||||||| |||||||||||||| |||||||| ||| |||| ||||||||||||||||||| ||||||||||||||||  | ||   ||||| ||||||||| || ||||| ||||||||||||| ||| ||||||||| ||||||||||||   | |||||||| |||| |||||||||||||| |||||| || |  |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||  || |   || | ||||||     || |||||  | ||||||||  ||  ||||||||| ||| |   || |||||||||| | ||||||| | ||   |||||||  |||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||  |  ||||||||||||||| | |||||| ||| ||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    |||||||||||||||||||| |||||||| |||||||||||| |||||||||||  ||||||||||||||||| | ||||||| ||||| ||||||||||| | |||   |||||||||||| ||  ||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||| ||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||                  ||||||||||||||||||||||||||||||||||  | ||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gi|1917909481|ref|NW_023496819.1|",
+                  "accession": "NW_023496819",
+                  "title": "Drosophila suzukii strain WT3_2.0 chromosome 3R unlocalized genomic scaffold, LBDM_Dsuz_2.1.pri Contig_16",
+                  "taxid": 28584,
+                  "sciname": "Drosophila suzukii"
+                }
+              ],
+              "len": 2609782,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1249.22,
+                  "score": 1384,
+                  "evalue": 0,
+                  "identity": 946,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 1956807,
+                  "hit_to": 1955742,
+                  "hit_strand": "Minus",
+                  "align_len": 1092,
+                  "gaps": 55,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGC-CTTA-ACAACC-GGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGAC---ACACGTCCACGAACAGACCAGAGTTCTTCCCGC--AATCCATCAGACACGCACTGCCATGGAAA--GGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCA---------AATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgg--gAGTTTG--ATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTC-GACCCACT-ATCATCCCAGATTGCGTAGCCTCCGGCGTCCTT-GGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGG-TTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaata-atgaaaaacaaaatatg-aaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCCTGCTTCAGCGGCTATTCGCCTGCGCACTCGGCCCATCCCTGGCACACTACACGAAGTGACGACGTGGTCCAGTTGGGTGCGGGAATAGCCGGATCCGGTTCTTCTATAACCAGGATAAACCATTGGGAGCGGGACGCACTCGGCTGAGGACCCGCCGCCCACACAAGGTCACACCGAAAAAATAAACACGACCATATACAGACGAGAGTTTTTCCCGCGCAAGCCATCAGACACGCACTGCCATGGAAAAAGGTCACGGAAATCGCATGGCAGTGTACACCAAAATCCATAATATCCAAATCCGAGCCCATTCTG---CTGGCTCCGCCCCCCG-GAA-CCGGAAACGGATTT-TGGGGGTGGGGTGACGGCAGGGCGGGTCATTGGGTTTGGGAGCCTAACATACACACT---CTAAAGAATACACCACC---CTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGACGCACACTCGACCGATTTCCGTGACATACGTCTCT-GCCAGTTCAGGCAGAGATCGGAGGACGCGCCGTTCGCCACCAGCCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACCATTCGGACCCACTAATCATCCCAGATTGCGTAGCCCCCGGCGTCCTTCGGCGATGCGGCGTCGCCATCCGACCCATCCTCCAGGATGCCTTCCAAAATTGGCATCTACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTTTTTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGAAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTAAA---------AAAATGAAAAA-AAAAACCAAATATAAGAAAAACAAAATATGAAAAACACACAAAACAC---AGAAGAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "|||||||||||||||||||| |||  |||||||||||||||||||||||||| ||||||||||| |||||||||||| |||| ||||| ||||||||||||||||||||||||||||||  |||  | |||| ||| ||||||||| | ||||||||||||||||||  |   ||||||||| ||||||||||||||| | |    ||||| |||   |||||| |||||| |||||||  || ||||||||||||||||||||||||||  ||||||||||||||||||||||||| ||||||||||||         ||||| |||||| || |   || |  |||||||  | ||| |||    ||||||| |||||||||||||  ||  ||  ||||    | |||||  | | ||||| | ||||    | |||  | ||||||||   |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||| ||||  |  ||||||||||||||| ||||||   ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||| ||||||||||||||||||||| ||||||||||| ||||| ||| ||||| | ||||  ||||||||||| | |||||||||||||||| |  |||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||         |||||||||||  ||||||||||| | ||||||||||||||| ||||||||||||||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gi|1934797263|ref|NC_050609.1|",
+                  "accession": "NC_050609",
+                  "title": "Drosophila subpulchrella strain 33 F10 #4 breed RU33 chromosome 3R, RU_Dsub_v1.1 Primary Assembly",
+                  "taxid": 1486046,
+                  "sciname": "Drosophila subpulchrella"
+                }
+              ],
+              "len": 20233744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1194.21,
+                  "score": 1323,
+                  "evalue": 0,
+                  "identity": 930,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 7493273,
+                  "hit_to": 7494336,
+                  "hit_strand": "Plus",
+                  "align_len": 1090,
+                  "gaps": 53,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGG--CCTTAACAACC-GGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCG--AGAGACACACGTCCACGAACAGACCAGAGTTCTTCC--CGCAATCCATCAGACACGCACTGCCATGG--AAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAA---------ATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtg-tg---gggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTC-GACCCACT-ATCATCCCAGATTGCGTAGCCTCCGGCGTCCTT-GGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATT-ATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaata-atgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCCCGCTTCAGCGGCTAATCGCCTGCGCACTCGGCCCATCCCTGGCACACTACACAAAGTGACGACGTGGTCCTGTTGGGTGCGGGAATAGCCGGATCCGGTTCTTCTATAACCAGGATAAACCAATGGGAGCGGGACGTACTCGGCTGAGGACCCGTCGCCCACACAAGGTCACACCGAAAAATAAACACGACCATATACAGACGAGAGTTTTTCCCGCGCAAGCCATCAGACACGCACTGCCATGGTCAAAGGTCACGGAAATCGCATGGCAGTGTACACCAAAATCCATAGTATCCAAATCCGAGCCCATACTG---CTGGCCCCGCCGCCAG-GAA-CCGGAAACGGATCT-TGGGGGTGGGGTGATGGCAGGGCGGGTCATTGGATTTGGGAGCCTAACATACACAC----TCTAAGGAA--TACAACACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGACGCACACTCGACCGATTTCCGTGACATACGTCTCT-GCCAGTTCAGGCAGAGATCGGTGGACGCGCCGTTCGCCACCAGCCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACCATTCGGACCCACTAATCATCCCAGATTGCGTAGCCCCCGGCGTCCTTCGGCGATGCGGCGTCGCCATCCGACCCATCCTCCAGGATGCCTTCCAAAATTGGCATCTACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTTTTAATCGCCTCATTTCGTACAAAGAAACACCGCAACAAGAAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTAA----------AAAATGAAAAAAAAAAACCAAATATAAGAAAAACAAAATATGAAAACACACAAAACAC---AGAAGAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||||||||||||||||||  ||  ||||||||| |||||||||||||||| ||||||||||| |||||||| ||| |||| ||||| || |||||||||||||||||||||||||||  | |  | |||| ||| |||||| || | |||||||| |||||||||  |   || |||||| ||||||||||||||  | | | ||||| |||   |||||| |||||| ||||  ||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||| |||||||         |||||||||| ||||||  | |   || | |||||| |  | ||| |||    ||||| | ||||||||||||| ||   |||||| |   |||   |  || | ||||| | ||||     | ||  ||    || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||| ||||  |  |||||||||||| || ||||||   ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||| ||||||||||||||||||||| ||||||||||| ||||| ||| ||||| | ||||  ||||||||||| | |||||||||||||||| |  |||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||| | ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||          |||||||||||  ||||||||||| | |||||||||||||||||||||||||||||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gi|2040413734|ref|NW_024545863.1|",
+                  "accession": "NW_024545863",
+                  "title": "Drosophila elegans isolate 14027-0461.03 unplaced genomic scaffold, ASM1815250v1 contig_476",
+                  "taxid": 30023,
+                  "sciname": "Drosophila elegans"
+                }
+              ],
+              "len": 26853036,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1175.28,
+                  "score": 1302,
+                  "evalue": 0,
+                  "identity": 906,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 25632217,
+                  "hit_to": 25631197,
+                  "hit_strand": "Minus",
+                  "align_len": 1074,
+                  "gaps": 64,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGC----GAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACAC---AAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGA-CCATTA--AGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACA-CCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCCCGCCCCAGCGACTATGCGCCTGCGCACTCGGCCCATCTCTGGCACACTACACGA-GCGACGACGCGGCCCAGTTGGGTGCGGGAATAGCCGGAACT---------------------CA--GAGGGCGGGACGCACCCAGCTGCCGGCCCGCCGCCCACACAAGGTCACACCGAGAGACACACGCCCACGAACAGACCAGAGTTTTTCCCCCAAGCCGTCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCCAAATCCAGGCCCATTCTG---CTGGCCCCGCCCTCGGGTCCGGATTCGGCTTCCGGACAGGTGGG--TGGGTTG----GCGGCAGGTCGGGAGTTTGAGCTTAACACGCCAAAAAAAAAATTAAAAAGAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCTGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTGCTCT--TCCGGCAGAGATCGGAGGACGCGCCCGGGGCCGCCAGTCGTCGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTCTTATATTTGAACCATTAGAAAAAAAACCTATTATTTTGCTTTACAATTCGACCCACTATCATCCAAGATTGCGCAGCCTTCGATGCCATTGGCCCCGCGGCGTCGTCATCCGGCCCATCCTCCAGAATGCCTTCCAAAATCGGCATCTACTGGATCGATTAGCTCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTTTTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGAACACACTGCACATCGTTTTTTACACCCCTTGCGTTATGTTTTTTAAATGTATTTAA----AATAAAAAAAAGAAAAAACCAAATAAAAGAAAACAAAACAAAATATGAAAACAC--------------AGAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||||||||||||||||||  ||||||||| |||| ||||||||||||||| ||||| ||||| |||||||||| |||||| || |||||||||||||||||||||||||||| |                      ||  ||| ||||||||||| | ||||  ||  ||||||||| ||||||||||||||||||||||||| ||||||||||||||||||| ||||| ||| || ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||| || |   || | |||||||   |     || || |||| ||||   |||||  |||| ||    ||||| ||  |||||||||| | ||||||   ||| |  |||  |||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||   |   | |||||||||||||||| ||||||||  ||| |||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||  | |||||||||| |||||||||||| ||||||||||||||||||| |||||||| ||||| ||  | | |||||  |||| ||||||| ||||| ||||||||||| | |||||||||||| ||| |  ||||||||||||||| |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||||| ||||||||||||||||||| |||||||||||    || || |||| |||||| | |||  ||| ||   ||||||||||||||||||||              | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gi|1036141590|ref|NW_016033678.1|",
+                  "accession": "NW_016033678",
+                  "title": "Drosophila biarmipes unplaced genomic scaffold, Dbia_2.0 scf7180000302136",
+                  "taxid": 125945,
+                  "sciname": "Drosophila biarmipes"
+                }
+              ],
+              "len": 3386121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1155.44,
+                  "score": 1280,
+                  "evalue": 0,
+                  "identity": 938,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 149239,
+                  "hit_to": 150329,
+                  "hit_strand": "Plus",
+                  "align_len": 1106,
+                  "gaps": 58,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGC-CTTAAC-AACC-GGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGA--CACACGTCCACGAACAGACCAGAGTTCTTCCCGC--AATCCAT-CAGACACGCACTGCCATGG--AAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCA---------AATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggg----gcgg------ctgggt--gggAGTTTGATCATA-ACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGC-GGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTC-GACCCACT--ATCATCCCAGATTGCGTAGCCTCCGGCGTCC-TTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGG-TTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaacc---aaaaccaaata-atgaaaaacaaaatat-gaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATCCCCCGCCTCAGCGGCTATTCGCCTGCGCACTCGGCCCATCCCTGGCACACTACACGAAGCGACGACGCGGTCCAGCTGGGTGCGGGAATAGCCGGATCCGGTTCTTCTCTAACCAGGATAAGCCCTTGCGAGCGGGACGCACCCGGCTCCGGACCCGCCGCCCACACAAGGCAACACCGAAAGATACACACGACCATGAACAGACTAGAGTTTTTCCCGCGCAAGCCATTCAGACACGCACTGCCATGGTCAAAGGTCACGGAAATCGCATGGCAGTGTACACCAAAATCCAGAATATCCAAATCCGAGCCCATTCTG---CTCGCTCCGCCCCCCG-GAACCGGCAA-CGGACCTA-GGGGGTGGGGTGGCGGCAGGGCGGGGCCAACTCGGTTTGGGAGCCTAA-CATATATACACACACTCTTTTAAGGAATACACCACC---CTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCT-GCCGT-TGCAGGCAGAGATCGGAGGACGCGCCGTTCGCCACCAGCCGGGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACCATTCGGAACCACTGAATCATCCCAGATTGCGTAGCCCTCGGCGACCGCCGGCGATGCGGCGTCGCCATCCGACCCATCCTCCAGGATGCCTTCCAAAATTGGCATCTACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTTTTTATCGCCTCATTTCGTACAAAGAGAAACCGCAACATGAAAACACTGCACATCGTTTTTAACACCCTGGCGTTATGTTTTTTGAATGTATTTAAAAGAAAAAAGAAAAACAAAAAACCAAAAAACCAAATATAAGAAAAACAAAATATGGAACACACAC-AAACAC--AAATGAAAACCAAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||||||||||||||||||  ||| |||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| || || |||| |||||||||||||||||||||||||  |||  | |||| ||| || || ||| | ||||||||||| |||||   |   ||||||||| ||||||  ||||||| |||  |||||| ||| |||||||| |||||| |||||||  || |||| |||||||||||||||||||  |||||||||||||||||||||||||||| ||||||||||||         ||||| |||||| || |   || |  |||||||  | ||| | ||   ||||  |  ||||||||||||  ||    ||||      || |||  |||||  | | |||| | ||| ||||      ||   | ||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||   ||| ||||||||||||||| ||||||   ||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || |||||  |||||||||||||||||||||  ||||| ||   ||||| ||| ||||| | ||||  ||||||||||| | |||||||||||||||| |  |||||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||| | |||||||||||||||||||| ||||||| ||||||||||||||||||||||||||||  ||||| ||||  ||||| |   ||||||||||| | |||||||||||||| ||| |||||| ||||||  |||  |||| | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gi|1036145884|ref|NW_016038966.1|",
+                  "accession": "NW_016038966",
+                  "title": "Drosophila takahashii unplaced genomic scaffold, Dtak_2.0 scf7180000415183",
+                  "taxid": 29030,
+                  "sciname": "Drosophila takahashii"
+                }
+              ],
+              "len": 199533,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1124.79,
+                  "score": 1246,
+                  "evalue": 0,
+                  "identity": 932,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 25045,
+                  "hit_to": 23959,
+                  "hit_strand": "Minus",
+                  "align_len": 1114,
+                  "gaps": 78,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCAC--TACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGG----CC--TTAAC-AACCGGAA-AAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAG--------AGACACACGTCCACGAACAGACCAGAGTTCTTCCCGC--AATCCATC--AGACACGCACTGCCATGGAAA-GGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAA-------ATCCAAGCCCAATCCGTCC-CTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctggg--tgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCAC--CACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCA-CCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTA--AGAAAAACCTATGATTTTGCTTTACGATTC-GACCCAC--TATCATCCCAGATTGCGTAGCCTCCGGCGTC--------CTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGG-TTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatg-aaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGGTCGAGTGCGGATACCCCGCCTCAGCGGCTATACGCCTGCGCACTCGGTTCATCCCTGGCACACACTACACGAAGCGACGACGCGGTCCAGTAGGGTGCGGGAATAGCCGGATTCGGGATTCCGATTCTCGAACCCGAATAAACCTTTGAGAGCGGGACGCACTCGGCTGCCGACCCGCCGCCCACACAAGGTCACACCGAACCCCAAAAAAACACACGACCATGAACAGACGAGAGTTTTTCCCGCGCAAGCCATTCTAAACACGCACTGCCATGGAAAAGGTCACGGAAATCGCATGGCAGTGCTCACCAAAATCAAACCAAACCATCCAAGGCCA-TCATTCCGCTGGCCCCGCCACCCG-GAA-CCGGAAACGGATCT-TGGCGGTGGGGTTCTGGGCGGCAGGTCCTGGAAGTTTGAACCTTACATCTACAC-ACTCTATAGAGAATACCACACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCT--GTTTATAAGGCAGAGATCGGAGGACACGCCCTTCGTCAGCCAGGCGATGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTACGAAAAAAACCTATGATTTTGCTTTACCATTCGGAACCACTATATCATCCCAGATTGCGTAGCCATCGGCGTCTCCTTTTTATTGGCGATGCGGCGTCGTCATCCGGCCCATCCTCCAGGAGGCCTTCCAAAATTGGCCTTCATTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTTTTTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGAAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTT-AAAAGAAAAAAAAAACAAAAAACCAA----ATATAA-GAAAAACAAAATATGAAAAACACACAAAACA--------------CAAACATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||||||||||||||| ||  ||| |||||||||| |||||||||||||||| |||||||||| |||  |||||||||||||| || || ||||| |||||||||||||||||||| |||    ||  ||  | |||| ||| ||||| ||||| ||||||||||||||||||  |   ||||||||| |||||||||||||||         | ||||||| ||| |||||||| |||||| |||||||  || ||||   | ||||||||||||||||||| |||||||||||||||||||||||| ||||||||||| ||       ||||||| ||| ||  ||| || | |||||| |  | ||| |||    ||||| | ||| ||||||||   ||||||| ||   ||| ||||||| | | |||   |||| |  | | |   || |||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||      ||  ||||||||||||||| | |||||  || || |||| ||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  | ||||||||||||||||||||||| |||| || ||||  ||||||||||||||||||||||  |||||||         ||||||| ||| ||||||| ||||| ||||||||||| | |||||||||||||||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| ||||| ||||  |||||||||    | |||| ||||||||||||||| |||||||||||||||              |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gi|1036154030|ref|NW_016061193.1|",
+                  "accession": "NW_016061193",
+                  "title": "Drosophila rhopaloa unplaced genomic scaffold, Drho_2.0 scf7180000779169",
+                  "taxid": 1041015,
+                  "sciname": "Drosophila rhopaloa"
+                }
+              ],
+              "len": 211631,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1111.26,
+                  "score": 1231,
+                  "evalue": 0,
+                  "identity": 889,
+                  "query_from": 3,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 93013,
+                  "hit_to": 92014,
+                  "hit_strand": "Minus",
+                  "align_len": 1068,
+                  "gaps": 75,
+                  "qseq": "GGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGC-AATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTG---CGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACA---AACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACTATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "GGGTCGAGTGCGGATCCCCCGCCCAAGCGACTATTCGCCTGCGCACTCGGCTCATCCCTGGCACACTACACAAAGTGACGACGTGGTCCAGTTGGGTGCGGGAATAGCCGGATC--------ACACAGGGA-------------GCGGGACGCACCCGGCTGCCGGCCCGCCGCCCACACAAGGTCACACCGCG-GACACACGCCCACAAACAGACAAGAGTTTTTCCCCCCAAGCCTTCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAAACCAAATCCAGGCCCATTCTG---CTGGCTCCGCCCTCAGGTCCGGATTCTAAGTCGGAT--GGGGGGGTGGGGTG----GCGGCAGGGCGGGAGTTTGAGCTTAACACACCAAAAACAAAAAAAGAAGAAAAAC-ACCACCCTTTGCGTTCTGCTTATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCTGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTGCTCTTCTG--GCAGAGATCGGAGGACACGCCCGGGGCCGCCAGTCGTCGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCAATTTTTATATTTGACCATTAA---AAACCTATGATTTTGCTTTACAATTCGACCCACAATCATCCCAGATTGCGTTGCCTTCGACGCTTTAGGCTCCGCGGCGTCGTCATCCGGCCCATCCTCCAGGATGCCTTCCAAAATTGGCATCTACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTTATATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGAACACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTAAATGTATTTAAAA-------------GAAAAA--AAA---GAAAGATATAAAACAAAATATGAAAA-ACAC------------AGAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||||||||||||||||  |||| |||| ||||||||||||||||||||  |||||||||| |||||||| ||| |||| ||||| |||||||||||||||||||||||||||        |||   |||             ||||||||||| ||||||  ||  ||||||||| |||||||||||||| | |||||||| |||| ||||||| |||||| ||||| | || || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||| ||||| || |   || |  ||||||   |   || || |     |||||  | ||||||||||||    ||||| ||| |||||||||| | |||||||   || || |||  | |  ||| || |||||||||||||||| ||  |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||   |   ||  |||||||||||||| | ||||||  ||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||| ||||||||||| ||||||||||||||||| |||| || ||   | |||  |||| ||||||| ||||| ||||||||||| | |||||||||||||||| |  ||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||| | ||||||||||||||||||||||||||||||||||||||||| |||||||||||||             ||||||  |||    ||  ||  ||||||||||||||||| ||||            | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gi|1036157603|ref|NW_016073122.1|",
+                  "accession": "NW_016073122",
+                  "title": "Drosophila ficusphila unplaced genomic scaffold, Dfic_2.0 scf7180000453800",
+                  "taxid": 30025,
+                  "sciname": "Drosophila ficusphila"
+                }
+              ],
+              "len": 2476920,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 1082.41,
+                  "score": 1199,
+                  "evalue": 0,
+                  "identity": 910,
+                  "query_from": 1,
+                  "query_to": 1063,
+                  "query_strand": "Plus",
+                  "hit_from": 1989531,
+                  "hit_to": 1990603,
+                  "hit_strand": "Plus",
+                  "align_len": 1095,
+                  "gaps": 54,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACC-ATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGA-GACA--CACGTCCACGAACAGACCAGAGTTCTTCCCGCA---ATCCATCAGACACGCACTGCCATGGA--AAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCG----CT--TGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAA------ACCAA-ACACCACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTG--ACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGAGCCA-ATTTTTATATTTGACCATT--AAGAAAAACCTATGATTTTGCTTTACGATTCGACCCACT--ATCATCCCAGATTGCGTAGCCTCCGGCGTCCTT-GGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATT-ATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTA-CACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "hseq": "AAGGACCGAGTGCGGATCCCCCGCCCAAGCGACTAATCGCCTCCGCACTTCGTTCATCCCTGGCACACTACACGAAGCGACGACGTGGTCCGGTTGAGTGCGGGATTAGCCGGATCCGG--TTAGTCGCCGGATAAATGTAAACAGAGGGGGACGCACTCAGTCGTTGGCCCGCCGCCCAAACAGAACCACACCAACATGATAATCACAACCAAGAACAGACCAGAGTTTTTCCCCCACAAAGCTTTCAGACACGCACTGCCATGGACAAAGGTCACGGAAATCGCATGGCAGTGTTCATCAAAATCCAAATGCAAGCCCATTCTG---CTGGCCCCGCCCT---CGGGTCCGGACTCTACTCCGGATTCCTGGG--TGGGGTG----GCGGCAGGGCGGGAGTTTGAGCTTAATACACACAAAAAAAAAAGAAGAAAGAAAGAGAACACCACCCTTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCGAGGGGTTAATCGGAGTACACTCGACCGATTTCCGTGACACATTCTTCTCCGTCC--TTCCGGCGGAGAGCGGAGGACACGCCCGGCGCCACCAGCCAACGACTATGCAATGGATTGAACGAAACATGCGCCAGAGCCACTTTTTTATATTTGACCATTAAAAAAAAAAACTATGATTTTGCTTTACAATTCGAACCACTGAATCATCCTAGATTGCGTAGACCTTGGCGACCTTCGGTGCTGTGGCGTTGTCATCCGGACCATCCTCCAGGATGCCTTCCAAACTTGGCATTGGCTGGATCGATTAGCCCCCAGCAAATTAAATCGCAGCCCGCAGGAGATTTGGTTATTAATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAAAACACACTGCACATCGTTTTTTACCACCCTTGCGTTATGTTTTTTGAATGTATTTAAAGAAAAAAAAAACAAAACAAAACAAAACCAAAT-----AAAACAAAATATGAAAACACACAAAACACTG-AAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAAC",
+                  "midline": "||||  ||||||||||||||  |||| |||| ||| |||||| ||||||  || |||||||||| ||||||||||||||||| ||||| || |||| |||||||| |||||||||||||  |||    ||||| |||   |   || | ||||||||||| |  || ||  |||||||||||||    |||||| | | || |  |||  ||| ||||||||||||||| ||||| ||   | |  |||||||||||||||||||||  |||||||||||||||||||||||||||||| |||||||||||| |||||||| || |   || | |||||||    ||  ||||    ||  | ||||||  ||||  |||||||    ||||| ||| |||||||||| | ||| ||| |||  |||  ||      |  || | | ||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||  |||| | ||||   ||   | |||| |||| |||||| | |||||| ||||||||| |   | |||||||||||||||||||||||||||||||||||||  ||||||||||||||||||  || ||||| ||||||||||||||||| |||||| |||||  ||||||| ||||||||||| |   |||| |||| || |  | | ||| ||| ||||||||||||||||| | |||||||||| ||||| ||  |||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||  | |||||||||||||||||||| |||||||||||||||||||||||||||||||||| | ||||| || |  | ||| |||||||||||     ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gi|1188338963|ref|NW_018366269.1|",
+                  "accession": "NW_018366269",
+                  "title": "Drosophila serrata strain Fors4 unplaced genomic scaffold, Dser1.0 scf3208",
+                  "taxid": 7274,
+                  "sciname": "Drosophila serrata"
+                }
+              ],
+              "len": 7300740,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 482.786,
+                  "score": 534,
+                  "evalue": 1.11283e-132,
+                  "identity": 723,
+                  "query_from": 1,
+                  "query_to": 947,
+                  "query_strand": "Plus",
+                  "hit_from": 6221437,
+                  "hit_to": 6222375,
+                  "hit_strand": "Plus",
+                  "align_len": 1000,
+                  "gaps": 114,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCT------TAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACA-AGGTCACAC-----CGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACAC--GCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAG-CCCAATCC--GTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACAC----TCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGG-CAGAGATCGGAGG--GCGCGCCCGACGCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAA----CATGCGCCAGAGCCA-ATTTTTATA--TTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGA-TTCGACCCACT----ATC-ATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCT-CCAGCACGCCT--TCCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGG--TTATTATCGCCTCATTTCGTACA---AAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTA-CACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaa----aaaccaaaaccaaa",
+                  "hseq": "AAGGGTCAAGTGCGGATCCCCCGCCCCTGCGGCTATCCGTTTGCGCACTTGGCCCGTTCCTGGCACACAACACTAAGCGACGACGCGGCGCGACCGGGTGCGGGGATAACCGGAGCCGGACTAGCCGCTGGCGACCGTCAACACC-----GAGCGGGACGCACCCGGACGC-GCCCGGCCGCCCACACAGAAGTCACACAACGCCGATAAGGACACG-CCACGAACAGACC-GAGTTTTTCCCGCAA-----CAGGCACAAGCACTGCCGTG-AAGCGTCACGGAAATCGCATGGCAGTGCCCATCAAAATCCAATCCCGAGTCCCGCTGCTGGCCCCGCCTCCCGGCCCCCAAAAA----CTGGCGGACGTGGGGCGGTGGGGTG-GTGGCAGCGGGGCGCG--TTTGAGCTTAACTCA------------------------CCAGC--TTGCGTTCAGCAAACCTCCTCGACCGGCTGCGATTACGGGGCTCAATGCGGGGGGTTAATCGGAGCACACACACTCGACCGATTTCCGTGAC-TGCGTCCCT-GCC----GCTGACAGGGATCGGAGGCGGCGCCCCCATGGCCCCCAGCTGGCGGCCATGCAATGGATCGATGAAAATACACACGCGCCAGAGCCACATTTTTTTACGTTTGAC-ATTTCGCGAAA------ATCTTGCTTTCCGAATTCGAGACACACCAGATGGATCCCAGATTGCGTGGCAGCCAGCGCCAGTGGCCA-GCGGCGCCGTCATCCGAACCACCCTTCCAGGATGCCTAATCCAACGATGGCATGGCCTGGACCGATTAGCCCCCAGCAAATTGAAACGCAGCCCGCAGGAGGTTTGGATTAAATAATGCCTCATTTCGTACAAACAACAGACACCGCAACAAGAACACACTGCACATCGTTTTTTATCCACCTTGCGTTATGTTTTTTAATTGTATTTAAACGAAAAAACAAAAAGAAAATGAAACCAAAACCGAA",
+                  "midline": "||||||| ||||||||||||  ||||| |||||||| ||  |||||||| || || | |||||| ||| |||| |||||||| || ||| |    ||||||||| ||| ||||| |||| ||      |  | ||||  || |||     | ||||||||||| |||  |  |    |||||||| ||| | |||||||     ||| |   ||||| ||||||||||||| ||||| |||||||||     ||| |||  |||||||| || ||  |||||||||||||||||||||||  || ||||||||||  || || |||  | |  | |||   ||||| |||     ||    || |||||  || || ||||||||| | ||| || ||| | |  ||||| | |||| ||                        ||| |  |||||||| ||||| | ||||   |||||||||||| |||||||| |||  |||||||||||||||||||    |||||||||||||||||| | |||| || |||    || | ||| |||||||||  |||| |||   ||| ||||  |  ||| ||||||||||| ||   |||    || |||||||||||| |||||| ||  |||||| |||  |  |||      || ||||||| ||| |||||  |||     ||  |||||||||||||| ||  || ||| |  |||| | ||| || |||| |||| |||| ||| |||| | ||||  |||||   |||| |   ||||| ||||||||||||||||||||||| ||||||||||||||| |||||  | | ||  |||||||||||||||   || ||| ||||||||||| | |||||||||||||||||||| |  |||||||||||||||||| | ||||||||||   |||||||||| |||    ||||||||||| ||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.9126,
+                  "score": 75,
+                  "evalue": 8.05548e-08,
+                  "identity": 42,
+                  "query_from": 1018,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 6222409,
+                  "hit_to": 6222453,
+                  "hit_strand": "Plus",
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "ATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "ATAATATGCTATTCAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "||||||||||||||||||||||||||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gi|2042987253|ref|NW_024571315.1|",
+                  "accession": "NW_024571315",
+                  "title": "Drosophila kikkawai isolate 14028-0561.14 unplaced genomic scaffold, ASM1815253v1 contig_200",
+                  "taxid": 30033,
+                  "sciname": "Drosophila kikkawai"
+                }
+              ],
+              "len": 33245224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 477.376,
+                  "score": 528,
+                  "evalue": 4.73186e-131,
+                  "identity": 720,
+                  "query_from": 1,
+                  "query_to": 947,
+                  "query_strand": "Plus",
+                  "hit_from": 24597459,
+                  "hit_to": 24598380,
+                  "hit_strand": "Plus",
+                  "align_len": 993,
+                  "gaps": 117,
+                  "qseq": "AAGGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCT------TAACAACCGGAAAAACCATTGAGCGCGGGACGCACTC-GGCTGTAGGTAC--GCCGCCCAAACAAG-GTCACAC-----CGAGAGACACACGTCCACGAACAGACCAGAGTTCTTCCCGCAATCCATCAGACACGCACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGT----CCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACAC----TCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGG-CAGAGATCGGAGGGCGCGCCCGACG--CCACCAGTCGTGGGCTATGCAATGGATTGAACGAAA---CATGCGCCAGAGCCA-ATTTTTATA--TTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGA-TTCGACCCACT-----ATCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTT--CCAAAATTGGCGTTCACTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTT--ATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTA-CACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaa",
+                  "hseq": "AAGAGTCAAGTGCGGACCCCCCGCCCCAGCGGTTATCCGTCTGCGCACTTGGCCCGTTCCTGGCACACAACACTAAGCGACGACGCGGCGCGACTGAGTGCGGGGATATCCGGAGCCGGACTAGCCGCTGGCGACCGTTAACACC-----GAGCGGGACGCACCCAGGC----GCGACCGGCCGCCCACACAAAAGCCACACAATGCCGAAAAGGACACG-CCACGAACAGACC-GAGTTTTTCCCGCAA--CAGCT-ACTAGCACTGCCGTG-AAGGGTCACGGAAATCGCATGGCAGTGCCCACCAAAATCCAATCCCGAGCCCC-TCTGTTGGCCCCGCCTCCCGGCCCCAG---AT----TTGCGGCCCTG-GGCGGTGGGGTG-GCGGCAGCGGGGCGCG--TTTGAGCTTAACTCA------------------------CCAGC--TTGCGTTCAGCAAACCTCCTCGACCGGCTGCGATTACGGGGCTCAATGCGGGGGGTTAATCGGAGCACACAAACTCGACCGATTTCCGTGA-ATGCGTCCCT-GCC----GCTGACAGGGATCGGAGACGGCGCCCCAAGGGCCCCCAGCTGGCGGCCGTGCAATGGATCGA-CGAAAATACACGCGCCAGAGCCACATTTTTTTACGTTTGAC-ATTTCGCGAAA------ATCTTGCTTTCCGAATTCGAGACACACCTGAATGATCCCAAATTGCGTGGCTGCCAGCGCCAGTGGCCA-GCGGCGCCGCCATCCGAACCACCTTCCAGGATGCCTTATCCAACGATGGCATGGCCTGGACCGATTAGCCCCCAGCAAATTGAAACGCAGCCCGCAGGAGGTTTGGATTAAATAATGCCTCATTTCGTACAAACAGACACCGCAACAAGAACACACTGCACATCGTTTTTTATCCACCTTGCGTTATGTTTTTTAATTGTATTT-AAACGAAAAACAAAAAGAAAAA--GAAACCAAA",
+                  "midline": "||| ||| |||||||| |||  |||||||||| ||| || ||||||||| || || | |||||| ||| |||| |||||||| || ||| |   || ||||||| ||| ||||| |||| ||      |  | ||||  || |||     | ||||||||||| | |||    |  ||  |||||||| ||||  | |||||     ||| |   ||||| ||||||||||||| ||||| |||||||||  || |  ||  |||||||| || || ||||||||||||||||||||||||  |||||||||||||  || |||||  || ||    |||   ||||| |||  |   ||    ||||||   || || ||||||||| | ||| || ||| | |  ||||| | |||| ||                        ||| |  |||||||| ||||| | ||||   |||||||||||| |||||||| |||  |||||||||||||||||||    ||||||||||||||||| || |||| || |||    || | ||| ||||||||   |||||| | |  || ||||  |  |||  |||||||||| || |||||   || |||||||||||| |||||| ||  |||||| |||  |  |||      || ||||||| ||| |||||  |||      || |||||| ||||||| ||  || ||| |  |||| | ||| || || | |||| |||| | ||||| | |||||  ||||   |||| |   ||||| ||||||||||||||||||||||| ||||||||||||||| ||||| |  | ||  ||||||||||||||||| ||| ||||||||||| | |||||||||||||||||||| |  |||||||||||||||||| | ||||||| |||  |||||||||| ||||||   ||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.9126,
+                  "score": 75,
+                  "evalue": 8.05548e-08,
+                  "identity": 42,
+                  "query_from": 1018,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 24598420,
+                  "hit_to": 24598464,
+                  "hit_strand": "Plus",
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "ATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "ATAATATGCTATTCAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "||||||||||||||||||||||||||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gi|1036175717|ref|NW_016089263.1|",
+                  "accession": "NW_016089263",
+                  "title": "Drosophila bipectinata unplaced genomic scaffold, Dbip_2.0 scf7180000396708",
+                  "taxid": 42026,
+                  "sciname": "Drosophila bipectinata"
+                }
+              ],
+              "len": 5555046,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 384.502,
+                  "score": 425,
+                  "evalue": 8.01999e-103,
+                  "identity": 768,
+                  "query_from": 3,
+                  "query_to": 1055,
+                  "query_strand": "Plus",
+                  "hit_from": 1099189,
+                  "hit_to": 1100220,
+                  "hit_strand": "Plus",
+                  "align_len": 1115,
+                  "gaps": 145,
+                  "qseq": "GGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAA--CAACCGGAAAAAC----CATTGAGC-GCGGGACGCACTCGGCTGTAGGTAC--GCCGCCCAAACAAGGTCACACCGAGAGAC-ACACGTCCACGAACAGACCAGAGTTCT-TCCCGCA-----ATCCATCAGA--CACGC--ACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATCCAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGC-ACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGC--CACCAGTCGTGGGCTATGCAATGGATTGA----ACGAAACATGCGCCAGAGCCAA---TTTTTATATTT-GACCATTAAGAAAAACCTATGATTTTGCTTTACGA-TTCGACCCACTATCATCCCAGATTGCGTAGCC-TCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCC-TTCCAAAATTGGCGTTCA--------------------CTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTT----aaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTA-AATAATATGCTATTCAAAGAAATCCAAAACATGATTACC",
+                  "hseq": "GGGTCGAGTGCGAATCTCCCGCGCCTGCGGATATTCGCCTGCGCACTCGGCCCATCCCTGGTACACGACACTGCGTGGCGGCC-GGCCCAGCTGGGTGTGCGAATATCCGGATTCGAGTAGGAGGCATCCTGCCCCACTCGGCTTACGGCAGCGGGACGCACTCAGCCG---GTGCCGGCCGTCCAAACAAGGCCACACACACAGGCGACAAGCCCACGAGCAGACCGTTATTATATCCCCCGGGAAGAGCCGTCAGGAGCTCGCCTATTGCCATG-AAGCGACACGGAAATCGCATGGCACTGGTCACCAAAATCCAAA---AACCTACAACCA--CCTG--CCAGACCC------ATCC-CTCTCGG------------GAGGCGGGGGACGGCAGGA-GGGCTTTTGAGCTTATCAAA-----GGAAC--AACCACTCACCTC------TTGCGTTCAGCAAATCACCTCGACCGGCTGCGATTAAGGGGCTCAATGCCTGGGGTTAATCGGACCCACACTAGACCGATTTCCGTGAACTA-----------AAATA------ATATAGGATGGCCCGCCGGGCGCTTCACCAGATG---GCTATGCAATGGATAAACGAAAGGAAACGCGCGCCAGAGCCACAGTTTTTTACATTTTGAACATTTTG------CGATTATTTAGCTTAACGAATTTGACACTCTCCCATCCCAGATTGCGTAGCCATTTAGAAATCACAGCGTTGCGGCGAGGTTGTCCG--CCATTTTCCAGGAATCCGTTCCAAAGTAGGGGCTCTGCCCCGAAACCGAATGGTGCCTGGACCGATTAGCCCTCGGCAATTTAAATCGCAGCCCGCAGGAGATTTGGGTTTT--CACCTCATTTCGTACAAAGATAAACCATAACAAAGATACACTGCACATCGTTTTTTACCACCATGCGTTATGTTTTTTAAATGTATTTCAAATAAAACAAAAA-AAAAAGTAAACAAAAAACCAAAAGAATAAAAACAA------AAAACAAATGAAA-ACCAAAAAATCTAGTCTAAGTTTGAAAGGAAAATTACTATAATATGCTATTCAAAGAAATCCAAAACATAATTACC",
+                  "midline": "|||||||||||| ||| |  || || |||| ||||||||||||||||||| ||||||||||  ||| ||||   | | ||||  ||||||| |||||| | ||||| |||||| ||      |  || || |    ||    | |   || ||||||||||||| || |   || |  |||| |||||||||| |||||  | || | ||| | |||||| ||||||    || | |||| |      | || ||||   | |||  | ||||||| ||  | |||||||||||||||||| || |||||||||||||||   || |   | ||   |||   || | |||      |||| ||  |||            | || | ||| |||| ||  |||  ||||| | || || |     | |||  |||||  |||| |      |||||||| ||||||||||||   ||||||||||||||||||||| |||| ||||||||||||| | ||||| |||||||||||||||  ||           ||||       | || ||| ||| |||| | |||  ||||||  |   ||||||||||||||  |    | |||||  ||||||||||||    |||||| |||| || ||||  |      | || |||| |||| |||| || ||| | ||  ||||||||||||||||||| |   |    |   |||  ||| ||  || |||||  ||||  ||||| |  || ||||||| | || | ||                     ||||| |||||||||| | |||| || |||||||||||||||||||||||| | ||  | |||||||||||||||||| |||||  ||||| || |||||||||||||||||||||  || ||||||||||||||| |||||||||     |||||||||| |||| | |||   |||||||||  |  ||||||||      |||||| |  ||| ||  |||||   |  | ||  | ||| | ||  |||  ||||||||||||||||||||||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gi|1798060829|ref|NW_022473262.1|",
+                  "accession": "NW_022473262",
+                  "title": "Drosophila ananassae strain 14024-0371.16-18 unplaced genomic scaffold, DanaRS2.1 tig00000002-arrow-pilon",
+                  "taxid": 7217,
+                  "sciname": "Drosophila ananassae"
+                }
+              ],
+              "len": 30636602,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.157,
+                  "score": 398,
+                  "evalue": 9.1508e-96,
+                  "identity": 766,
+                  "query_from": 3,
+                  "query_to": 1055,
+                  "query_strand": "Plus",
+                  "hit_from": 7840288,
+                  "hit_to": 7839251,
+                  "hit_strand": "Minus",
+                  "align_len": 1126,
+                  "gaps": 161,
+                  "qseq": "GGGTCGAGTGCGGATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCGGCCTTAACAACCGGAAAAACCATTGAGCGCGGGACGCACTCGGCTGTAGGTACGCCGCCCAAACAAGGTCACACCGAGAGACACACGTCCACGAACAGACCAGAGTTCT-TCCCGCA------ATCCATCAGA--CACGC--ACTGCCATGGAAAGGTCACGGAAATCGCATGGCAGTGTTCACCAAAATCCAAATC-CAAGCCCAATCCGTCCCTAGTCCCGCCCCTTGCGAATCCGCTTGCGGATTTgtgggggtggggtgtggggcggctgggtgggAGTTTGATCATAACACAAACACGAAACCAAACCAAACACCACCACCCTTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCCCGACGC--CACCAGTCGTGGGCTATGCAATGGATT---GAACGAAACATGCGC--CAGAGCCAAT---TTTTATATTT-GACCATTAAGAAAAACCTATGATTTTGCTTTACGA-TTCGACCCACTATCATCCCAGATTGCGTAGCC-TCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCAGCACGCCTTCCAAAATT---GGCGTTCA--------------------CTGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTT--TTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaa-------caaaaacaaaatgaaaaaccaaaaccaaat-aatg----aaaaacaaaatatgaaaacacacaaaac-actgaaaa--aaaaaa-----ccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACC",
+                  "hseq": "GGGTCGAGTGCGAATCTCCCGCGCCTGCGGATATTCGCCTGCGCACTCGGCCCATCCCTGGTACACGACACTGCGTGGCGGCC-GGTCCAGCTGGGTGTGCGAATATCCAGATCCGG--TTGGGTTACGGCA------------GCGGGACGCATCCAGCTGGCGCCT-GCCGTCCAAACAAGGCCACACACAG-GCGACATGCCCACGAGAAGACCGTTATTATATCCCCCCGGGAAGAGCCGTCAGGGGCTCGCCTATTGCCATG-AAGCGACACGGAAATCGCATGGCACTGGTCACCAAAATCCAAAAATCACTCCCA---CCTGCC-AGACCCGCCCCT----------CTCACGA-------GGCGTGGAG----GGCCGACAGGGGGGGCTTTTGAGCTTATCAAA-----GGAAC--AACCACTCACCTC------TTGCGTTCAGCAAATCACCTCGACCGGCTGCGATTAAGGGGCTCAATGCTTGGGGTTAATCGGACCACACTAGACCGATTTCCGTGAACTAA----------AAAT----CAAGGAT-----GACCCGCCGGGCGCTTCACCAGATG---GCTATGCAATGGATAAACGAAAGAAAAACGCGCGCCAGAGCCACTGTTTTTTACATTTTGAACATTTTG------CGATTATTTAGCTTAACGAATTGGACACTCTCCCATCTGAGATTGCGTAGCCATTTGGATTTCACAGCGTTGCGGCGAGGCTGTCTG--CCATTTTCCAGGTCTCCAGTCTAAAGTAGGGGCGCTCTGCCCCAAAACCGAATGGAGCCTGGACCGATTAGCCCTCGGCAATTTAAATCGCAGCCCGCAGGAGATTTGG--ATTTTCACCTCATTTCGTACAAAGATAAACCGTAACAAAAATACACTGCACATCGTTTTTTTTACCACCCTACGTTATGTTTTTTAAATGTATTTAAAAAAAAATTCAAAAAATAAAAAAAAAAACAAAAAAAAAATGAATGAAAAAAAAACAAAAGAATAAAAACCAAAAAACAAATGAAAACCAAAAAATCTAGTCTAAGTTTGAAAGGAAATTACTATAATATGCTATTCAAAGAAATCCAAAACATAATTACC",
+                  "midline": "|||||||||||| ||| |  || || |||| ||||||||||||||||||| ||||||||||  ||| ||||   | | ||||  || |||| |||||| | ||||| || |||||||  ||      ||| |            ||||||||||  | ||||  |    |||| |||||||||| |||||  || |  ||| | ||||||  |||||    || | |||| |       | || ||||   | |||  | ||||||| ||  | |||||||||||||||||| || |||||||||||||||   ||  ||||   | | || || |||||||||          ||  ||        || |||| |    || || | ||| |||  ||||| | || || |     | |||  |||||  |||| |      |||||||| ||||||||||||   ||||||||||||||||||||| |||  ||||||||||||| |||||| |||||||||||||||  ||           ||||    ||  |||     | | |||| | |||  ||||||  |   ||||||||||||||    ||| |||| | ||||  |||||||| |   ||||| |||| || ||||  |      | || |||| |||| |||| || ||| | ||  ||||  ||||||||||||| |  ||  | |   |||  ||| ||  |  ||| |  ||||  |||||  | ||   | ||| |   |||| ||                     ||||| |||||||||| | |||| || ||||||||||||||||||||||||  ||| || |||||||||||||||||| |||||| |||||  | |||||||||||||||  ||||||  || | ||||||||||||| ||||||||||||||        ||||| ||||  |||||| ||||  |||| ||||    |||||||||| |  ||||  || ||||| | ||||||  ||||||      | ||  | ||| | || ||   ||||||||||||||||||||||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gi|195446537|ref|NW_002032853.1|",
+                  "accession": "NW_002032853",
+                  "title": "Drosophila willistoni unplaced genomic scaffold, dwil_caf1 scf2_1100000004902",
+                  "taxid": 7260,
+                  "sciname": "Drosophila willistoni"
+                }
+              ],
+              "len": 12369635,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.261,
+                  "score": 163,
+                  "evalue": 1.04688e-31,
+                  "identity": 215,
+                  "query_from": 772,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 1078653,
+                  "hit_to": 1078379,
+                  "hit_strand": "Minus",
+                  "align_len": 296,
+                  "gaps": 26,
+                  "qseq": "ATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCC-TCATTTCGTACAAAGAGAAACCGCAA----CAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "ATCGATTAGCCACTAGCAATTTAAATTGCAGCTCGCAGGAGATTTGA--ATTATCCTTATCATTTCGTACAAAAATACACAAAAATGAACAAGAATACACAA-ACAACGTTTTTTACCACCTT-CTTTATGTTTTTTAAATGTATTTCAAATAAAACAAAAAACAAAAAA--AAAACAAAAAAACCAAA--CAAAAAATGCTAGGGTA------AGTTTAAAACAAAAACAAA----GAA---AAATTACTATAATATGCTATTCAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "||||||||||| | ||||| || ||| ||||| |||||||||||||   ||||||    |||||||||||||| | | ||   ||    |||| | ||||   ||| ||||||||||  |||| | ||||||||||| ||||||||| |||  ||| | ||||  |||||  ||||| ||| ||  |||  ||||| |||  |    |      | |  |||| |||| ||||    |||   || ||   ||||||||||||||||||||||||||||||| |||||| | ||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 73.4211,
+                  "score": 80,
+                  "evalue": 1.89447e-09,
+                  "identity": 56,
+                  "query_from": 439,
+                  "query_to": 501,
+                  "query_strand": "Plus",
+                  "hit_from": 1079080,
+                  "hit_to": 1079015,
+                  "hit_strand": "Minus",
+                  "align_len": 66,
+                  "gaps": 3,
+                  "qseq": "GTTCGGCAAATCACCT---CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACAC",
+                  "hseq": "GTTCAGCAAATCACCTTGACCAGCTGCAATTAAGGGGCTCAGTGCTTGGGGTTAATCAGATCACAC",
+                  "midline": "|||| |||||||||||   || ||||| |||||||||||||||||  |||||||||| || |||||"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gi|1838624607|ref|NW_022995749.1|",
+                  "accession": "NW_022995749",
+                  "title": "Drosophila guanche unplaced genomic scaffold, DGUA_6",
+                  "taxid": 7266,
+                  "sciname": "Drosophila guanche"
+                }
+              ],
+              "len": 7251133,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.752,
+                  "score": 158,
+                  "evalue": 1.27536e-30,
+                  "identity": 389,
+                  "query_from": 434,
+                  "query_to": 962,
+                  "query_strand": "Plus",
+                  "hit_from": 1340592,
+                  "hit_to": 1340048,
+                  "hit_strand": "Minus",
+                  "align_len": 578,
+                  "gaps": 82,
+                  "qseq": "TTTGCGTTCGGCAAATCACCT----CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCC-CGAC--GCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAA-------CATGCGCCAGAGCCAATT--TTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGAC-CCACTA-TCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGT-CGTCGTCCGGACCATCCTCCA--GCACGCCTTCCAAAATTGGCGTTCAC-TGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACAC-------TGCACATCGT---------TTTTTACAC--------CCTTGCGTTATGTTTTTTGAATGTATTT-aaaaacaaaaacaaaatgaaaaaccaaaaccaaa--taatgaaaaacaaaa",
+                  "hseq": "TTTGCGTTCGGCAAATCACCTTTGACCGGCTGCGATTAAGGGGCTCAGTGCCTGGGGTTAATCAGAAGACACAC-ACCGATTTCCGT-ACA-----CTCT--CC------------GAGCGGGGGCCACGCCGCGGCTTGCC-CCAGCAGTGGGCCGTGCAATGGATTG-ACTAAAGTGCGCCCCTACGCCAGCG-CAATTGACTTATTATTTTGGTTTAAGTTTCACC----ATTACGAATTCGGACCCTACTCTACTATTCAGCCGATATTGCATGACCCTCTGCGCCGTAGGCGCCGCGACGTGCGTC--CCCGTCAACTATTCAAGGTTCGGGCTC--ATCTTGG-ATCGACTTGGATCGATTAGCCCCCGGCAATTTGAATCGCAGCCCGCAGGAGATTTGATATTTTTTGTCTAATTTCGCACAAGGAAACACAGAAACAAGAATACACAAACCAACACACAACGTTTAGTTATGTTATTACACAAACAACACAAAATGTTATGTTTTTTAAATATATTTAAAAAAGAAAAACCAAAACAAAAACAAAAACAAAAACAAAGAAAAAACAAAA",
+                  "midline": "|||||||||||||||||||||    ||||||||||||||||||||||||||| |||||||||| ||  |||| | |||||||||||| |||     ||||  ||            || ||| || | |||| || |  ||| ||||  ||||||  |||||||||||| || |||       | | |||||| | |||||   ||||  ||     |||||    |||    |||  |  ||  ||  | || | |||| ||| || | ||||| |  ||  | ||| | | |||| |||||||| ||||  || | | |   | ||  |  ||   ||  |  ||||  |  || ||||||||||||||||| |||| |||||||||||||||||||||||||| |  || | | || |||||| |||| || | || | |||||| | ||||         |||| |||         || ||||||        |     |||||||||||| ||| ||||| ||||| |||||| |||  |||||| ||||| |||   ||  ||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00177434,
+                  "identity": 29,
+                  "query_from": 1018,
+                  "query_to": 1046,
+                  "query_strand": "Plus",
+                  "hit_from": 1340019,
+                  "hit_to": 1339991,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "hseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gi|1847688159|ref|NC_048533.1|",
+                  "accession": "NC_048533",
+                  "title": "Drosophila subobscura isolate 14011-0131.10 chromosome O, UCBerk_Dsub_1.0",
+                  "taxid": 7241,
+                  "sciname": "Drosophila subobscura"
+                }
+              ],
+              "len": 30159154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.752,
+                  "score": 158,
+                  "evalue": 1.27536e-30,
+                  "identity": 388,
+                  "query_from": 434,
+                  "query_to": 962,
+                  "query_strand": "Plus",
+                  "hit_from": 17671479,
+                  "hit_to": 17670942,
+                  "hit_strand": "Minus",
+                  "align_len": 575,
+                  "gaps": 83,
+                  "qseq": "TTTGCGTTCGGCAAATCACCTC----CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCC-CGAC--GCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAA------CATGCGCCAGAGCCAATT---TTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGATTCGAC-CCACTA-TCATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTCGTCGTCCGGACCATCCTCCA--GCACGCCTTCCAAAATTGGCGTTCAC-TGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACAC-------TGCACATCGT---------TTTTTACAC--------CCTTGCGTTATGTTTTTTGAATGTATTT-aaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaa",
+                  "hseq": "TTTGCGTTCGGCAAATCACCTCTGACCGGCTGCGATTAAGGGGCTCAGTGCCTGGGGTTAATCAGAAGACACAC-ACCGATTTCCGT-ACA-----CTCT--CC------------GAGCGGGGGCCACGCCGCGGCTTGCC-CCAGCAGTGGGCCATGCAATGGATTGACTAAAATGCGCCCCTACGCCAGCG-CAATTGACTTATTATTTTGTC-TTAAGTTTCACC----ATTACGAATTCGGACCCTACTCTACTATTCAGCCGATATTGCATGACCCTCTGCGCCGTAGGCGCCGCGACGT-GCCTCCCCGTCAACTATTCAAGGTTCGGGCTC--ATCTTGG-ATCGACTTGGATCGATTAGCCCCCGGCAATTTGAATCGCAGCCCGCAGGAGATTT-GATATT-TTTTCTCATTTCGCACAAGGAAACACAGAAACAAGAATACACAAGCCAACACACAACGTTTAGTTATGTTATTACACAAACAACACAAAATATTATGTTTTTTAAATATATTTAAAAAAGAAAAACCAAAACAAAAACAAAAAACAAAGA---AAAAACAAAA",
+                  "midline": "||||||||||||||||||||||    |||||||||||||||||||||||||| |||||||||| ||  |||| | |||||||||||| |||     ||||  ||            || ||| || | |||| || |  ||| ||||  |||||| ||||||||||||||   |||      | | |||||| | |||||   ||  |||||   | |||||    |||    |||  |  ||  ||  | || | |||| ||| || | ||||| |  ||  | ||| | | |||| |||||||| | |  || | | |   | ||  |  ||   ||  |  ||||  |  || ||||||||||||||||| |||| ||||||||||||||||||||||||| | |||| |   ||||||||| |||| || | || | |||||| | ||||         |||| |||         || ||||||        |      ||||||||||| ||| ||||| ||||| |||||| |||  |||||| |||| |||| |   ||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00177434,
+                  "identity": 29,
+                  "query_from": 1018,
+                  "query_to": 1046,
+                  "query_strand": "Plus",
+                  "hit_from": 17670913,
+                  "hit_to": 17670885,
+                  "hit_strand": "Minus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "hseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gi|2034556845|ref|NW_024542736.1|",
+                  "accession": "NW_024542736",
+                  "title": "Drosophila obscura isolate BZ-5 IFL unplaced genomic scaffold, ASM1815110v1 contig_150",
+                  "taxid": 7282,
+                  "sciname": "Drosophila obscura"
+                }
+              ],
+              "len": 13505966,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.441,
+                  "score": 151,
+                  "evalue": 1.8928e-28,
+                  "identity": 439,
+                  "query_from": 434,
+                  "query_to": 1046,
+                  "query_strand": "Plus",
+                  "hit_from": 9803617,
+                  "hit_to": 9804221,
+                  "hit_strand": "Plus",
+                  "align_len": 661,
+                  "gaps": 104,
+                  "qseq": "TTTGCGTTCGGCAAATCACCT----CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCC-CGAC--GCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAA------CATGCGCCAGAGCC----AATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGA-TTCG-ACCC------ACTAT-CATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGTC-GTCGTCCGGACCATCCTCCA--GCACGCCTTCCAAAATTGGCGTTCACT-GGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaaca-aaaacaaaatg---aaaaaccaaaaccaaataatgaaaaacaaaatatgaaaac---acacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAA-----------ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "hseq": "TTTGCGTTCGGCAAATCACCTTTGACCGGCTGCGATTAAGGGGCTCAGTGCTTGGGGTTAATCAGAAGACACAC-ACCGATTTCCGT-ACA-----CTCT------------CCGAG--CGGGGGCCACGCCGCGGCTTGCC-CCAGCAGTGGGCCATGCAATGGATTGACTAAAATGCGCGCCTACGCCAGCGCAGTTGACTTATTAT-TTTGTTC-TTAAG-------TTTGAC----CATTACGAATTCGGACCCTCCTCTACTATTCAGCCGATATTGCATGACCCTCTGCACCGTAGGCGCCGCGACGTGAGTC--CCCGTCAACTATTCAAGGTTCGGACTC---ATCTTGAATCGACTTGGATCGATTAGCCCCCGGCAATTTGAATCGCAGCCCGCAGGAGATTT-GATATT-TTGCCTCATTTCGCACAAGGAAACACAGCAACAAGAATACACACAACAAC-----ACACAACTTTTAGTTATGTT------ATGACACAAACAACACAAAATATTATGTTTTTAAATATATTTCAAATAAAAAACAAAACAAAAACAAAACCAAAAACAAAAAAC---AAAGAAAAAACAAAAGTCTAGGCTAAGTTTAAGAGAAATTACTATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "midline": "|||||||||||||||||||||    ||||||||||||||||||||||||||  |||||||||| ||  |||| | |||||||||||| |||     ||||            | |||  ||| || | |||| || |  ||| ||||  |||||| ||||||||||||||   |||      | | |||||| ||     | || |||| ||||  | |||||       | |||     | |||||| |||| ||||      ||||| || || | ||||| |  ||  | ||  | | |||| ||||||||  |||  || | | |   | ||  |  ||   ||   |  | |  |  ||| |||||||||||||||| |||| ||||||||||||||||||||||||| | |||| | ||||||||||| |||| || | || |||||||| | ||||   ||| |       ||| | ||  ||||||||      |||     || |||| |||| |  |||     |||   |   |||||||  || || | || |  |||||   | |||||| ||   ||| ||||| ||||| |  |   |||||||||           |||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gi|1501117831|ref|NW_020825288.1|",
+                  "accession": "NW_020825288",
+                  "title": "Drosophila persimilis strain 14011-0111.01,24,50 unplaced genomic scaffold, DperRS2 tig00000000-arrow-pilon",
+                  "taxid": 7234,
+                  "sciname": "Drosophila persimilis"
+                }
+              ],
+              "len": 28574317,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.932,
+                  "score": 146,
+                  "evalue": 2.3059e-27,
+                  "identity": 437,
+                  "query_from": 434,
+                  "query_to": 1046,
+                  "query_strand": "Plus",
+                  "hit_from": 12803235,
+                  "hit_to": 12802644,
+                  "hit_strand": "Minus",
+                  "align_len": 654,
+                  "gaps": 103,
+                  "qseq": "TTTGCGTTCGGCAAATCACCT----CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCC-CGAC--GCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGA-GCCA----ATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTG-CTTTACGA-TTCG---ACCC----ACTAT-CATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGT-CGTCGTCCGGACCATCCTCCA--GCACGCCTTCCAAAATTGGCGTTCACT-GGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaaca-aaaacaaaatg---aaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAA-----------ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "hseq": "TTTGCGTTCGACAAATCACCTTTGACCGGCTGCGATTAAGGGGCTCAGTGCTTGGGGTTAATCAGAAGACACAC-ACCGATTTCCGT-ACA-----CTCT------------CCGAG--CGGGGGCCACGCCGCGGCTTGCC-CCAGCAGTGGGCCGTGCAATGGATTGA-CTAAA-ATGCGCCCTACGCCAGCGCAGTTTAATTATT----ATTTTGT-----CT-TAATTTTCACATTACGAATTCGGACACTCCTCTACTATTCAGCCGATATTGCACGACCCTATGCGCCGTAGGCGCCGCGACGTGCGTC--CCCGTCAATTATTCAAGGTTCGGGCTC---ATCTTGAATCGACTTGGATCGATTAGCCCCCGGCAATTTGAATCGCAGCCCGCAGGAGATTT-GATATT-TTGCCTCATTTCGCACAAGGAAAAACAGCAACAAGAGCACACAAACCAAC-----ACACAACTTTCAGTTATGTTATTACA------CGAACAACACAAAATATTATGTTTTTAAATATATTTCAAATAA--AAAAACAAAA---CCAAAAACAAAAAATACAGAAAAAA-----CAAAAGTCTAGGCTAAGTTTAAGAGAAATTACTATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "midline": "|||||||||| ||||||||||    ||||||||||||||||||||||||||  |||||||||| ||  |||| | |||||||||||| |||     ||||            | |||  ||| || | |||| || |  ||| ||||  ||||||  ||||||||||||| | ||| |||||||  | ||||    | ||| ||  ||    |||  |      || | |||||  | |||||| ||||   || |    ||||| || || | |||||    ||    ||| | | |||| |||||||| ||||  || | | ||  | ||  |  ||   ||   |  | |  |  ||| |||||||||||||||| |||| ||||||||||||||||||||||||| | |||| | ||||||||||| |||| || |||| ||||||||   ||||    || |       ||| | ||  |||||||| ||  |        || |||| |||| |  |||     |||   |   |||||||  ||||||||||     ||| ||| |||| || |||||||     ||||| |  |   |||||||||           |||||||||||||||||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.0924,
+                  "score": 63,
+                  "evalue": 0.000145647,
+                  "identity": 84,
+                  "query_from": 3,
+                  "query_to": 118,
+                  "query_strand": "Plus",
+                  "hit_from": 12803608,
+                  "hit_to": 12803500,
+                  "hit_strand": "Minus",
+                  "align_len": 117,
+                  "gaps": 9,
+                  "qseq": "GGGTCGAGTGCG-GATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCG",
+                  "hseq": "GGGTCGAGTGCGCGGTCTC-CACCCAAGCGGGTATTCGGGCGCGCACTCGGCTCATCCCTACCACACCACACGA-------GTGGGGGGCCGTTGGGTGCATGAATATCCGGTTCCG",
+                  "midline": "|||||||||||| | || |   ||| ||||| ||||||   ||||||||||  |||||||  | ||| ||||||       | | ||  | |||||||||  ||||| |||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gi|1829010150|ref|NC_046679.1|",
+                  "accession": "NC_046679",
+                  "title": "Drosophila pseudoobscura strain MV2-25 chromosome 2, UCI_Dpse_MV25",
+                  "taxid": 7237,
+                  "sciname": "Drosophila pseudoobscura"
+                }
+              ],
+              "len": 32422566,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.522,
+                  "score": 140,
+                  "evalue": 9.80492e-26,
+                  "identity": 318,
+                  "query_from": 434,
+                  "query_to": 866,
+                  "query_strand": "Plus",
+                  "hit_from": 14684763,
+                  "hit_to": 14685180,
+                  "hit_strand": "Plus",
+                  "align_len": 459,
+                  "gaps": 67,
+                  "qseq": "TTTGCGTTCGGCAAATCACCT----CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCC-CGAC--GCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGA-GCCA----ATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTG-CTTTACGA-TTCG---ACCC----ACTAT-CATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGT-CGTCGTCCGGACCATCCTCCA--GCACGCCTTCCAAAATTGGCGTTCACT-GGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACAC",
+                  "hseq": "TTTGCGTTCGACAAATCACCTTTGACCGGCTGCGATTAAGGGGCTCAGTGCTTGGGGTTAATCAGAAGACACAC-ACCGATTTCCGT-ACA-----CTCT------------CCGAG--CGGGGGCCACGCCGCGGCTTGCC-CCAGCAGTGGGCCGTGCAATGGATTGA-CTAAA-ATGCGCCCTACGCCAGCGCAGTTTAATTATT----ATTTTGT-----CT-TAATTTTCACATTACGAATTCGGACACTCCTCTACTATTCAGCCGATATTGCACGACCCTATGCGCCGTAGGCGCCGCGACGTGCGTC--CCCGTCAATTATTCAAGGTTCGGGCTC---ATCTTGAATCGACTTGGATCGATTAGCCCCCGGCAATTTGAATCGCAGCCCGCAGGAGATTT-GATATT-TTGCCTCATTTCGCACAAGGAAACACAGCAACAAGAACACAC",
+                  "midline": "|||||||||| ||||||||||    ||||||||||||||||||||||||||  |||||||||| ||  |||| | |||||||||||| |||     ||||            | |||  ||| || | |||| || |  ||| ||||  ||||||  ||||||||||||| | ||| |||||||  | ||||    | ||| ||  ||    |||  |      || | |||||  | |||||| ||||   || |    ||||| || || | |||||    ||    ||| | | |||| |||||||| ||||  || | | ||  | ||  |  ||   ||   |  | |  |  ||| |||||||||||||||| |||| ||||||||||||||||||||||||| | |||| | ||||||||||| |||| || | || |||||||| | ||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.0924,
+                  "score": 63,
+                  "evalue": 0.000145647,
+                  "identity": 84,
+                  "query_from": 3,
+                  "query_to": 118,
+                  "query_strand": "Plus",
+                  "hit_from": 14684390,
+                  "hit_to": 14684498,
+                  "hit_strand": "Plus",
+                  "align_len": 117,
+                  "gaps": 9,
+                  "qseq": "GGGTCGAGTGCG-GATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCG",
+                  "hseq": "GGGTCGAGTGCGCGGTCTC-CACCCAAGCGGGTATTCGGGCGCGCACTCGGCTCATCCCTACCACACCACACGA-------GTGGGGGGCCGTTGGGTGCATGAATATCCGGTTCCG",
+                  "midline": "|||||||||||| | || |   ||| ||||| ||||||   ||||||||||  |||||||  | ||| ||||||       | | ||  | |||||||||  ||||| |||| ||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00177434,
+                  "identity": 29,
+                  "query_from": 1018,
+                  "query_to": 1046,
+                  "query_strand": "Plus",
+                  "hit_from": 14685314,
+                  "hit_to": 14685342,
+                  "hit_strand": "Plus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "hseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gi|1829009953|ref|NC_046675.1|",
+                  "accession": "NC_046675",
+                  "title": "Drosophila miranda strain MSH22 chromosome 2, D.miranda_PacBio2.1",
+                  "taxid": 7229,
+                  "sciname": "Drosophila miranda"
+                }
+              ],
+              "len": 35263383,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.817,
+                  "score": 137,
+                  "evalue": 1.19448e-24,
+                  "identity": 316,
+                  "query_from": 434,
+                  "query_to": 866,
+                  "query_strand": "Plus",
+                  "hit_from": 14997104,
+                  "hit_to": 14997520,
+                  "hit_strand": "Plus",
+                  "align_len": 458,
+                  "gaps": 66,
+                  "qseq": "TTTGCGTTCGGCAAATCACCT----CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACATACGTCTCTAGCCAAATGCGGCAGAGATCGGAGGGCGCGCC-CGAC--GCCACCAGTCGTGGGCTATGCAATGGATTGAACGAAACATGCGCCAGA-GCCA----ATTTTTATATTTGACCATTAAGAAAAACCTATGATTTTGCTTTACGA-TTCG---ACCC----ACTAT-CATCCCAGATTGCGTAGCCTCCGGCGTCCTTGGCGACGCGACGT-CGTCGTCCGGACCATCCTCCA--GCACGCCTTCCAAAATTGGCGTTCACT-GGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACAC",
+                  "hseq": "TTTGCGTTCGACAAATCACCTTTGACCGGCTGCGATTAAGGGGCTCAGTGCTTGGGGTTAATCAGAAGACACAC-ACCGATTTCCGT-ACA-----CTCT------------CCGAG--CGGGGGCCACGCCGCGGCTTGCC-CCAGCAGTGGGCCGTGCAATGGATTGA-CTAAA-ATGCGCCCTACGCCAGCGCAGTTTAATTATT----ATTTTGT-----CT-TAATTTCACATTACGAATTCGGACACTCCTCTACTATTCAGCCGATATTGCACGACCCTATGCGCCGTAGGCGCCGCGACGTGCGTC--CCCGTCAATTATTCAAGGTTCGGGCTC---ATCTTGAATCGACTTGGATCGATTAGCCCCCGGCATTTTGAATCGCAGCCCGCAGGAGATTT-GATATT-TTGCCTCATTTCGCACAAGGAAACACAGCAACAAGAACACAC",
+                  "midline": "|||||||||| ||||||||||    ||||||||||||||||||||||||||  |||||||||| ||  |||| | |||||||||||| |||     ||||            | |||  ||| || | |||| || |  ||| ||||  ||||||  ||||||||||||| | ||| |||||||  | ||||    | ||| ||  ||    |||  |      || | ||||  | |||||| ||||   || |    ||||| || || | |||||    ||    ||| | | |||| |||||||| ||||  || | | ||  | ||  |  ||   ||   |  | |  |  ||| |||||||||||||||| |||  ||||||||||||||||||||||||| | |||| | ||||||||||| |||| || | || |||||||| | ||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.0924,
+                  "score": 63,
+                  "evalue": 0.000145647,
+                  "identity": 84,
+                  "query_from": 3,
+                  "query_to": 118,
+                  "query_strand": "Plus",
+                  "hit_from": 14996731,
+                  "hit_to": 14996839,
+                  "hit_strand": "Plus",
+                  "align_len": 117,
+                  "gaps": 9,
+                  "qseq": "GGGTCGAGTGCG-GATCCCTTGCCCCAGCGGCTATTCGCCTGCGCACTCGGTCCATCCCTGGCTCACTACACGAAGCGACGGCGTGGCCCAGTTGGGTGCGGGAATAGCCGGATCCG",
+                  "hseq": "GGGTCGAGTGCGCGGTCTC-CGCCCAAGCGGGTATTCGGGCGCGCACTCGACTCATCCCTACCACACCACACGA-------GTGGGGGGCCGTTGGGTGCATGAATATCCGGTTCCG",
+                  "midline": "|||||||||||| | || |  |||| ||||| ||||||   |||||||||   |||||||  | ||| ||||||       | | ||  | |||||||||  ||||| |||| ||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00177434,
+                  "identity": 29,
+                  "query_from": 1018,
+                  "query_to": 1046,
+                  "query_strand": "Plus",
+                  "hit_from": 14997655,
+                  "hit_to": 14997683,
+                  "hit_strand": "Plus",
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "hseq": "ATAATATGCTATTCAAAGAAATCCAAAAC",
+                  "midline": "|||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gi|1838535111|ref|NC_047631.1|",
+                  "accession": "NC_047631",
+                  "title": "Drosophila albomicans strain 15112-1751.03 chromosome 2R, drosAlbom15112-1751.03v1",
+                  "taxid": 7291,
+                  "sciname": "Drosophila albomicans"
+                }
+              ],
+              "len": 32236572,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.8,
+                  "score": 127,
+                  "evalue": 6.18758e-22,
+                  "identity": 213,
+                  "query_from": 769,
+                  "query_to": 1055,
+                  "query_strand": "Plus",
+                  "hit_from": 29777577,
+                  "hit_to": 29777856,
+                  "hit_strand": "Plus",
+                  "align_len": 306,
+                  "gaps": 45,
+                  "qseq": "TGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAAC--AC-TGCACATCGTTTTTTACACCC-------------TTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaa--accaaaaccaaataatgaaaaacaaaata-tgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACC",
+                  "hseq": "TGGATCGATTAGCCACTAGCACATA-AATTGCAGCTCGCAGGAGATTTGA--ATTATT-CCTTGTTTC-TACACAAATAAACCACAACACTAAAAACAACATGCACACGGTTTTTTCCAACAAAAAAAAAAACATTTTTGTTATGTTTTTTAAATGTATTAAAAAAAGAAAACAAAAAAAAAATAAACAAAACCAAA---------AGAATTTAGTGTAAGTAAAAAAAA-------AAAGAAAACCCAAAAAA-AATATTACT----ATAATACGCTATTCAAAGAAATCCAAAACATAATTACC",
+                  "midline": "|||||||||||||| | |||| ||  ||| ||||| |||||||||||||   |||||  |||  |||| |||| | | ||||| |||||   |||   || ||||||  ||||||| || |              ||  |||||||||||| |||||||| |||||  |||||||||  ||||  | ||||||||||         | ||  || || ||  | | ||||       ||| |||||| |||| | ||| | | |    |||||| |||||||||||||||||||||||| ||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 84.2413,
+                  "score": 92,
+                  "evalue": 1.0478e-12,
+                  "identity": 69,
+                  "query_from": 439,
+                  "query_to": 516,
+                  "query_strand": "Plus",
+                  "hit_from": 29777172,
+                  "hit_to": 29777249,
+                  "hit_strand": "Plus",
+                  "align_len": 82,
+                  "gaps": 8,
+                  "qseq": "GTTCGGCAAATCACCT----CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGT",
+                  "hseq": "GTTCAGCAAATCACCTTTGACCAGCTGCGATTAAGGGGCTCAGTGCCTGTGGTTAATCAGAGCACA---GA-CGATTTCCGT",
+                  "midline": "|||| |||||||||||    || |||||||||||||||||||||||| | |||||||| |||||||   || ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gi|1838519992|ref|NW_022995380.1|",
+                  "accession": "NW_022995380",
+                  "title": "Drosophila innubila isolate TH190305 chromosome 3R unlocalized genomic scaffold, UK_Dinn_1.0 2_E_3R",
+                  "taxid": 198719,
+                  "sciname": "Drosophila innubila"
+                }
+              ],
+              "len": 32746461,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 101.373,
+                  "score": 111,
+                  "evalue": 1.36291e-17,
+                  "identity": 201,
+                  "query_from": 769,
+                  "query_to": 1061,
+                  "query_strand": "Plus",
+                  "hit_from": 31428569,
+                  "hit_to": 31428315,
+                  "hit_strand": "Minus",
+                  "align_len": 296,
+                  "gaps": 44,
+                  "qseq": "TGGATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTG-GTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCC--TTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAA",
+                  "hseq": "TGAATCGATTAGCCACTGTCACATA-AATTGCAGCTCGCAGGAGATTTGAGTTATT---GACTTGTTTA-TACCAAAATACACTGCAACAAACACAAAACACACACGGTTTTTTCCAAACATTTTCGTTATGTTTTTTAAATGTATTAAAAAAAAAAAACA----CAAAAACC-TAAGAAATTAGTG----------TAAGTAAACA------------AAAAAAAAAAACACAA---------AAATTACTATAATATGCTATTCAAAGAAATCCAAAACATAATTACCAACAAA",
+                  "midline": "|| ||||||||||| |   || ||  ||| ||||| ||||||||||||| ||||||   | ||  |||  ||| || | | || |||||||  | | |   ||||  ||||||| ||  |  || ||||||||||||| |||||||| ||||| |||||||     |||||||  ||  || || ||          || | |||||            |||||||||| || ||         || ||   ||||||||||||||||||||||||||||||| |||||| | |||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 71.6177,
+                  "score": 78,
+                  "evalue": 6.61234e-09,
+                  "identity": 72,
+                  "query_from": 433,
+                  "query_to": 516,
+                  "query_strand": "Plus",
+                  "hit_from": 31428949,
+                  "hit_to": 31428856,
+                  "hit_strand": "Minus",
+                  "align_len": 94,
+                  "gaps": 10,
+                  "qseq": "CTTTGCGTTCGGCAAATCACCT---CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTC-------GACCGATTTCCGT",
+                  "hseq": "CTTTAAGTTCAGCAAATCTCTTTGACCAGCTGCAATTAAGGGGCTCAGTGTCAGGGGTTAATCAGAACACACACACAATCACACCGATTTCCGT",
+                  "midline": "||||  |||| ||||||| | |   || ||||| |||||||||||||||| |||||||||||| || ||||| |        ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gi|1725299894|ref|NW_022060538.1|",
+                  "accession": "NW_022060538",
+                  "title": "Scaptodrosophila lebanonensis strain 11010-0011.00,11010-0021.00 unplaced genomic scaffold, SlebRS2 tig00000024-arrow-pilon",
+                  "taxid": 7225,
+                  "sciname": "Scaptodrosophila lebanonensis"
+                }
+              ],
+              "len": 23597914,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 101.373,
+                  "score": 111,
+                  "evalue": 1.36291e-17,
+                  "identity": 74,
+                  "query_from": 434,
+                  "query_to": 519,
+                  "query_strand": "Plus",
+                  "hit_from": 2500743,
+                  "hit_to": 2500824,
+                  "hit_strand": "Plus",
+                  "align_len": 86,
+                  "gaps": 4,
+                  "qseq": "TTTGCGTTCGGCAAATCACCTCCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGAC",
+                  "hseq": "TTTGCGTTCAGCAAATCACCTCCAGCTGCGATTAAGGGGCTCAGTGCTTGCGGTTAATCAGA----ACTCAGCCGATTTCCGTGAC",
+                  "midline": "||||||||| ||||||||||||| |||||||||||||||||||||||  | |||||||| ||    ||||  ||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.0109,
+                  "score": 74,
+                  "evalue": 8.05548e-08,
+                  "identity": 117,
+                  "query_from": 774,
+                  "query_to": 937,
+                  "query_strand": "Plus",
+                  "hit_from": 2501056,
+                  "hit_to": 2501208,
+                  "hit_strand": "Plus",
+                  "align_len": 164,
+                  "gaps": 11,
+                  "qseq": "CGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTGGTTATTATCGCCTCATTTCGTACAAAGAGAAACCGCAACAAGGAAACACTGCACATCGTTTTTTACACCCTTGCGTTATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaac",
+                  "hseq": "CGATTAGCTACAGGCACATA-AATTTCAGCTCGCAGGTGATTTGG--ATTCTCGCCTCATTTCGTACAAAAATACACAGCCACAAGG-GACA-TGGA----GTTTAGGAGACTTTTTGGTTACGTTAATTAAATGTATTTCACATTAAATAAAAAA--AAAAAC",
+                  "midline": "||||||||  |  ||| ||  |||  |||| |||||| |||||||  ||| ||||||||||||||||||| | | || || ||||||  ||| || |    ||||   | ||  ||  |||| |||  || ||||||||| | |  ||| | ||||  ||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 57.1907,
+                  "score": 62,
+                  "evalue": 0.000145647,
+                  "identity": 42,
+                  "query_from": 1018,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 2501242,
+                  "hit_to": 2501290,
+                  "hit_strand": "Plus",
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "ATAATATGC----TATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "ATAATATGCAAAATATTCAAAGAAATCCAAAACATAATTACCAAGAAAA",
+                  "midline": "|||||||||    |||||||||||||||||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gi|195054903|ref|NW_001961679.1|",
+                  "accession": "NW_001961679",
+                  "title": "Drosophila grimshawi strain TSC#15287-2541.00 unplaced genomic scaffold, dgri_caf1 scaffold_15074",
+                  "taxid": 7222,
+                  "sciname": "Drosophila grimshawi"
+                }
+              ],
+              "len": 7742996,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.472,
+                  "score": 110,
+                  "evalue": 1.36291e-17,
+                  "identity": 76,
+                  "query_from": 434,
+                  "query_to": 519,
+                  "query_strand": "Plus",
+                  "hit_from": 6155881,
+                  "hit_to": 6155797,
+                  "hit_strand": "Minus",
+                  "align_len": 89,
+                  "gaps": 7,
+                  "qseq": "TTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGAC",
+                  "hseq": "TTTACGTTCAGCAAATCACCTCGTCCAGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCAGAACACA----GCCGATTTCCGTGAC",
+                  "midline": "||| ||||| ||||||||||||   | ||||||||||||||||||||||||||||||||||| || ||||     ||||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 82.4379,
+                  "score": 90,
+                  "evalue": 3.65718e-12,
+                  "identity": 122,
+                  "query_from": 772,
+                  "query_to": 929,
+                  "query_strand": "Plus",
+                  "hit_from": 6155510,
+                  "hit_to": 6155347,
+                  "hit_strand": "Minus",
+                  "align_len": 168,
+                  "gaps": 14,
+                  "qseq": "ATCGATTAGCCCCCAGCAAATTGAATCGCAGCCCGCAGGAGATTTG-GTTATTATCGCCTCATTTCGTACAAAGAGAAACCGC------AACAAGGAAACACTGCACATCGTTTTTTACACCCTTGC-GTTATGTTTTTTGAATGTATTTaaaaacaaaa--acaaaa",
+                  "hseq": "ATCGATTAGCCACTGGCACATAAATTC-CAGCTCGCAGGTGATTTGAGTTATT---GCCTCATTTGAAACAAGAATACACCGACAAAAAAAAAAAAAAAAACAAAACATCGTTTTTTCCAACATTTTTGTTATGTTTTTTAAATGTATTAAAAAAAAAAATTACAAAA",
+                  "midline": "||||||||||| |  ||| ||  | || |||| |||||| |||||| ||||||   |||||||||   ||||  | | ||||       || ||  ||| ||   |||||||||||| || | ||   |||||||||||| |||||||| ||||| ||||  ||||||"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 58.0924,
+                  "score": 63,
+                  "evalue": 0.000145647,
+                  "identity": 33,
+                  "query_from": 1015,
+                  "query_to": 1048,
+                  "query_strand": "Plus",
+                  "hit_from": 6155315,
+                  "hit_to": 6155282,
+                  "hit_strand": "Minus",
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "TAAATAATATGCTATTCAAAGAAATCCAAAACAT",
+                  "hseq": "TATATAATATGCTATTCAAAGAAATCCAAAACAT",
+                  "midline": "|| |||||||||||||||||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gi|1500054712|ref|NW_020824830.1|",
+                  "accession": "NW_020824830",
+                  "title": "Drosophila novamexicana strain 15010-1031.04,08,12 unplaced genomic scaffold, DnovRS2.1 tig00000870-arrow-arrow-pilon",
+                  "taxid": 47314,
+                  "sciname": "Drosophila novamexicana"
+                }
+              ],
+              "len": 2184260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.4547,
+                  "score": 100,
+                  "evalue": 7.06002e-15,
+                  "identity": 77,
+                  "query_from": 429,
+                  "query_to": 519,
+                  "query_strand": "Plus",
+                  "hit_from": 928808,
+                  "hit_to": 928719,
+                  "hit_strand": "Minus",
+                  "align_len": 94,
+                  "gaps": 7,
+                  "qseq": "CACCCTTTGCGTTCGGCAAATCACCT---CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGAC",
+                  "hseq": "CACACCTTGCGTTCAGCAAATCACCTTGACCAGCTGCAATTAAGGGGCTCAGTGCTCGGGGTTAATCGGACAACAC----CTGATTTCCGTGAC",
+                  "midline": "||| | |||||||| |||||||||||   || ||||| |||||||||||||||||  |||||||||||||  ||||    | ||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.9941,
+                  "score": 64,
+                  "evalue": 4.17284e-05,
+                  "identity": 54,
+                  "query_from": 985,
+                  "query_to": 1054,
+                  "query_strand": "Plus",
+                  "hit_from": 928192,
+                  "hit_to": 928132,
+                  "hit_strand": "Minus",
+                  "align_len": 70,
+                  "gaps": 9,
+                  "qseq": "AAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTAC",
+                  "hseq": "AAAAAAAAAATAAAAAATCCAA---------AAAAAATATGCTATTCAAAGAAATCCAAAACATAATAAC",
+                  "midline": "||||||||||  ||||||  ||         ||| ||||||||||||||||||||||||||||| || ||"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gi|1805215599|ref|NW_022587574.1|",
+                  "accession": "NW_022587574",
+                  "title": "Drosophila virilis strain 15010-1051.48,49,85 unplaced genomic scaffold, DvirRS2 tig00003843-arrow-pilon",
+                  "taxid": 7244,
+                  "sciname": "Drosophila virilis"
+                }
+              ],
+              "len": 11302735,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.4547,
+                  "score": 100,
+                  "evalue": 7.06002e-15,
+                  "identity": 74,
+                  "query_from": 435,
+                  "query_to": 520,
+                  "query_strand": "Plus",
+                  "hit_from": 4444732,
+                  "hit_to": 4444648,
+                  "hit_strand": "Minus",
+                  "align_len": 89,
+                  "gaps": 7,
+                  "qseq": "TTGCGTTCGGCAAATCACCT---CCGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGACA",
+                  "hseq": "TTGCGTTCAGCAAATCACCTTGACCAGCTGCAATTAAGGGGCTCAGTGCCCGGGGTTAATCAGACAACAC----CTGATTTCCGTGACA",
+                  "midline": "|||||||| |||||||||||   || ||||| |||||||||||||||||| |||||||||| ||  ||||    | |||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 57.1907,
+                  "score": 62,
+                  "evalue": 0.000145647,
+                  "identity": 36,
+                  "query_from": 1014,
+                  "query_to": 1051,
+                  "query_strand": "Plus",
+                  "hit_from": 4444118,
+                  "hit_to": 4444082,
+                  "hit_strand": "Minus",
+                  "align_len": 38,
+                  "gaps": 1,
+                  "qseq": "TTAAATAATATGCTATTCAAAGAAATCCAAAACATGAT",
+                  "hseq": "TTAAATA-TATGCTATTCAAAGAAATCCAAAACATAAT",
+                  "midline": "||||||| ||||||||||||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gi|1717508224|ref|NW_022045657.1|",
+                  "accession": "NW_022045657",
+                  "title": "Drosophila hydei strain 15085-1641.00,03,60 unplaced genomic scaffold, DhydRS2 tig00000063-arrow-pilon",
+                  "taxid": 7224,
+                  "sciname": "Drosophila hydei"
+                }
+              ],
+              "len": 10357547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.6345,
+                  "score": 88,
+                  "evalue": 1.27648e-11,
+                  "identity": 71,
+                  "query_from": 434,
+                  "query_to": 518,
+                  "query_strand": "Plus",
+                  "hit_from": 10141080,
+                  "hit_to": 10140997,
+                  "hit_strand": "Minus",
+                  "align_len": 88,
+                  "gaps": 7,
+                  "qseq": "TTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGA",
+                  "hseq": "TTTGCGTTCAGCAAACCACCTCGACCAGTTGCAGTTAAGGGGCTCGGTGCTTGGGGTTAATCAGAGCACAC----CCGATTTCCGTGA",
+                  "midline": "||||||||| ||||| ||||||   | | |||  ||||||||||| ||||  |||||||||| ||||||||    |||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.0109,
+                  "score": 74,
+                  "evalue": 8.05548e-08,
+                  "identity": 40,
+                  "query_from": 1014,
+                  "query_to": 1055,
+                  "query_strand": "Plus",
+                  "hit_from": 10140545,
+                  "hit_to": 10140504,
+                  "hit_strand": "Minus",
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "TTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACC",
+                  "hseq": "TTATATAATATGCTATTCAAAGAAATCCAAAACATAATTACC",
+                  "midline": "||| ||||||||||||||||||||||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gi|1059198158|ref|NW_017127682.1|",
+                  "accession": "NW_017127682",
+                  "title": "Drosophila arizonae isolate ariz_Son04 chromosome 2 unlocalized genomic scaffold, ASM165402v1",
+                  "taxid": 7263,
+                  "sciname": "Drosophila arizonae"
+                }
+              ],
+              "len": 29979347,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.6345,
+                  "score": 88,
+                  "evalue": 1.27648e-11,
+                  "identity": 65,
+                  "query_from": 985,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 5630160,
+                  "hit_to": 5630230,
+                  "hit_strand": "Plus",
+                  "align_len": 78,
+                  "gaps": 7,
+                  "qseq": "AAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "AAAAAAAAAAACAAAAAT-GAAT------TAATATAATATGCTATTCAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "|||||||||| ||||||| ||||      | | ||||||||||||||||||||||||||||||| |||||| | ||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 76.1261,
+                  "score": 83,
+                  "evalue": 5.42774e-10,
+                  "identity": 70,
+                  "query_from": 434,
+                  "query_to": 518,
+                  "query_strand": "Plus",
+                  "hit_from": 5629596,
+                  "hit_to": 5629679,
+                  "hit_strand": "Plus",
+                  "align_len": 88,
+                  "gaps": 7,
+                  "qseq": "TTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGA",
+                  "hseq": "TTTGCGTTCAGCAAACCACCTCGACCTGTTGCAGTTAAGGGGCTCGGTGCTTGGGGTTAATCAGACCACAC----CCGATTTCCGTGA",
+                  "midline": "||||||||| ||||| ||||||   | | |||  ||||||||||| ||||  |||||||||| || |||||    |||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gi|195113988|ref|NW_001979112.1|",
+                  "accession": "NW_001979112",
+                  "title": "Drosophila mojavensis strain TSC#15081-1352.22 unplaced genomic scaffold, dmoj_caf1 scaffold_6540",
+                  "taxid": 7230,
+                  "sciname": "Drosophila mojavensis"
+                }
+              ],
+              "len": 34148556,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.6345,
+                  "score": 88,
+                  "evalue": 1.27648e-11,
+                  "identity": 71,
+                  "query_from": 434,
+                  "query_to": 518,
+                  "query_strand": "Plus",
+                  "hit_from": 7087670,
+                  "hit_to": 7087753,
+                  "hit_strand": "Plus",
+                  "align_len": 88,
+                  "gaps": 7,
+                  "qseq": "TTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGA",
+                  "hseq": "TTTGCGTTCAGCAAATCACCTCGACCTGTTGCAGTTAAGGGGCTCGGTGCTTGGGGTTAATCAGACCACAC----CCGATTTCCGTGA",
+                  "midline": "||||||||| ||||||||||||   | | |||  ||||||||||| ||||  |||||||||| || |||||    |||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 72.5194,
+                  "score": 79,
+                  "evalue": 6.61234e-09,
+                  "identity": 56,
+                  "query_from": 997,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 7088202,
+                  "hit_to": 7088265,
+                  "hit_strand": "Plus",
+                  "align_len": 66,
+                  "gaps": 2,
+                  "qseq": "AAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "AAAAAAAAAATGAA--TTAATATAATATGCTATTCAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "||||| | |||| |  || | ||||||||||||||||||||||||||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gi|1719034051|ref|NW_022045896.1|",
+                  "accession": "NW_022045896",
+                  "title": "Drosophila navojoa isolate navoj_Jal97 unplaced genomic scaffold, UFRJ_Dnav_4.2",
+                  "taxid": 7232,
+                  "sciname": "Drosophila navojoa"
+                }
+              ],
+              "len": 842374,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 76.1261,
+                  "score": 83,
+                  "evalue": 5.42774e-10,
+                  "identity": 70,
+                  "query_from": 434,
+                  "query_to": 518,
+                  "query_strand": "Plus",
+                  "hit_from": 700759,
+                  "hit_to": 700842,
+                  "hit_strand": "Plus",
+                  "align_len": 88,
+                  "gaps": 7,
+                  "qseq": "TTTGCGTTCGGCAAATCACCTC---CGGCTGCGATTAAGGGGCTCAGTGCCAGGGGTTAATCGGAGCACACTCGACCGATTTCCGTGA",
+                  "hseq": "TTTGCGTTCAGCAAACCACCTCGACCTGTTGCAGTTAAGGGGCTCGGTGCTTGGGGTTAATCAGACCACAC----CCGATTTCCGTGA",
+                  "midline": "||||||||| ||||| ||||||   | | |||  ||||||||||| ||||  |||||||||| || |||||    |||||||||||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 76.1261,
+                  "score": 83,
+                  "evalue": 5.42774e-10,
+                  "identity": 64,
+                  "query_from": 985,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 701282,
+                  "hit_to": 701352,
+                  "hit_strand": "Plus",
+                  "align_len": 78,
+                  "gaps": 7,
+                  "qseq": "AAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "AAAAACAAAAACAAAAA-AGAAT------TAATATAATATGCTATTCAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "||||| |||| |||||| |||||      | | ||||||||||||||||||||||||||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gi|2034556811|ref|NW_024542770.1|",
+                  "accession": "NW_024542770",
+                  "title": "Drosophila obscura isolate BZ-5 IFL unplaced genomic scaffold, ASM1815110v1 contig_182",
+                  "taxid": 7282,
+                  "sciname": "Drosophila obscura"
+                }
+              ],
+              "len": 38066,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.0109,
+                  "score": 74,
+                  "evalue": 8.05548e-08,
+                  "identity": 88,
+                  "query_from": 889,
+                  "query_to": 1006,
+                  "query_strand": "Plus",
+                  "hit_from": 23079,
+                  "hit_to": 22967,
+                  "hit_strand": "Minus",
+                  "align_len": 120,
+                  "gaps": 9,
+                  "qseq": "TGCGTTATGTTTTTTGAATGTATTTaaaaacaaa--aacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAA",
+                  "hseq": "TGCGTTATGTTATT----TTTATTTAAAAAAAAAGTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAA---AAAAAAAAAAAAAAAAAAAGAA",
+                  "midline": "||||||||||| ||    | |||||||||| |||  || ||||  |||||  ||||  ||| ||  ||||| |||| | ||||| | | |||| |   ||||||||||  ||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gi|1941828420|ref|NC_051862.1|",
+                  "accession": "NC_051862",
+                  "title": "Culex quinquefasciatus strain JHB chromosome 2, VPISU_Cqui_1.0_pri_paternal",
+                  "taxid": 7176,
+                  "sciname": "Culex quinquefasciatus"
+                }
+              ],
+              "len": 225161840,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2076,
+                  "score": 72,
+                  "evalue": 2.81164e-07,
+                  "identity": 79,
+                  "query_from": 898,
+                  "query_to": 1000,
+                  "query_strand": "Plus",
+                  "hit_from": 80059211,
+                  "hit_to": 80059120,
+                  "hit_strand": "Minus",
+                  "align_len": 103,
+                  "gaps": 11,
+                  "qseq": "TTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaa",
+                  "hseq": "TTTTTTGAATGTA-TAAAAAACCAAAACAAAAACCAAAACCAAAACCAA--AACCAAAACCAAA--ACCAAAAC---CAAAAC---CAAAACCAAAACCAAAA",
+                  "midline": "||||||||||||| | |||||| |||||||||   ||||||||||||||  ||  |||| ||||  |  |||||   ||||||    ||||  ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gi|1308265411|ref|NW_019376272.1|",
+                  "accession": "NW_019376272",
+                  "title": "Ceratitis capitata unplaced genomic scaffold, Ccap_2.1 scaffold28",
+                  "taxid": 7213,
+                  "sciname": "Ceratitis capitata"
+                }
+              ],
+              "len": 2919731,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 61.6992,
+                  "score": 67,
+                  "evalue": 1.19554e-05,
+                  "identity": 80,
+                  "query_from": 921,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 1955507,
+                  "hit_to": 1955609,
+                  "hit_strand": "Plus",
+                  "align_len": 106,
+                  "gaps": 5,
+                  "qseq": "AAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAAC--ACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAATCAAAAACAATAAACAAAACAAAA-AATAAAAAAGAAA-TATAAAAACAGAAAATTCTAAATTCAAAAAAAAAAAAAAAAAAGAAA-TAAGTTTAAATAAAAT",
+                  "midline": "||| |||||  || || |||||| ||| ||| ||||| ||| ||| |||||| | ||  |  | |  |||||||||  ||||| ||||  ||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gi|1941828441|ref|NC_051861.1|",
+                  "accession": "NC_051861",
+                  "title": "Culex quinquefasciatus strain JHB chromosome 1, VPISU_Cqui_1.0_pri_paternal",
+                  "taxid": 7176,
+                  "sciname": "Culex quinquefasciatus"
+                }
+              ],
+              "len": 132876167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 59.8958,
+                  "score": 65,
+                  "evalue": 4.17284e-05,
+                  "identity": 83,
+                  "query_from": 910,
+                  "query_to": 1021,
+                  "query_strand": "Plus",
+                  "hit_from": 109683613,
+                  "hit_to": 109683721,
+                  "hit_strand": "Plus",
+                  "align_len": 114,
+                  "gaps": 7,
+                  "qseq": "ATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaac--aaaatatgaaaacacacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAA",
+                  "hseq": "ATTAAAAAAATAAAACAAAA--AAAAAGAAATTAAAAAAAATAAAAAAGTTAAAAAATTAAAAAAAATAAAAAAATTAAAAAAAATAAAAAAAATATAA---AAGTTTAAATAA",
+                  "midline": "||| |||||  |||||||||  |||||  ||    ||| ||| |||||   |||| || |||| | | |||| | | |||||||| |  ||||||| ||   ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gi|1308265249|ref|NW_019376289.1|",
+                  "accession": "NW_019376289",
+                  "title": "Ceratitis capitata unplaced genomic scaffold, Ccap_2.1 scaffold108",
+                  "taxid": 7213,
+                  "sciname": "Ceratitis capitata"
+                }
+              ],
+              "len": 1195549,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 56.2891,
+                  "score": 61,
+                  "evalue": 0.000508356,
+                  "identity": 86,
+                  "query_from": 914,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 1023018,
+                  "hit_to": 1023132,
+                  "hit_strand": "Plus",
+                  "align_len": 118,
+                  "gaps": 10,
+                  "qseq": "aaaaacaaaaacaaaa-tgaaaaac-caaaaccaaataatgaaaaacaaaata--tgaaaacacacaaaacactgaaaa---aaaaaaccaaaaaTAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAAAACAAAAAAAAAAATGAAAAAAACAAAATAAAATGAAAAAAATAAAAATAAATAAAAAATCAAATAAATCATAAAATATAAAAAATAAAATATAGAATGTAAG---AAATAAAAT",
+                  "midline": "||||||||||| |||| |||||||  |||||  |||| |  ||||  ||||||  | ||||  || | ||  |  ||||   ||||||  ||| ||||||||||||   |||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gi|1965398685|ref|NC_052503.1|",
+                  "accession": "NC_052503",
+                  "title": "Bactrocera tryoni isolate S06 chromosome 5, CSIRO_BtryS06_freeze2",
+                  "taxid": 59916,
+                  "sciname": "Bactrocera tryoni"
+                }
+              ],
+              "len": 81886338,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.000508356,
+                  "identity": 79,
+                  "query_from": 916,
+                  "query_to": 1021,
+                  "query_strand": "Plus",
+                  "hit_from": 68419371,
+                  "hit_to": 68419270,
+                  "hit_strand": "Minus",
+                  "align_len": 107,
+                  "gaps": 6,
+                  "qseq": "AAACAAAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAAC-ACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAA",
+                  "hseq": "AAACAAAAA-AAAATAAAAAACAAAAAGGAAAACATAAAAAAATACAAATTAAAAAAAAAAAAAGTAC--AACAAAAAAA--AAATATGGAAAAAAAGTTTAAATAA",
+                  "midline": "||||||||| ||||| |||||| ||||  |||  || |||||  | | || |||| | | ||||  ||  || |||||||  ||| || |||   ||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gi|751404153|ref|NW_011875865.1|",
+                  "accession": "NW_011875865",
+                  "title": "Bactrocera dorsalis strain Punador unplaced genomic scaffold, ASM78921v2 scaffold00536",
+                  "taxid": 27457,
+                  "sciname": "Bactrocera dorsalis"
+                }
+              ],
+              "len": 85020,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.000508356,
+                  "identity": 50,
+                  "query_from": 897,
+                  "query_to": 957,
+                  "query_strand": "Plus",
+                  "hit_from": 73135,
+                  "hit_to": 73078,
+                  "hit_strand": "Minus",
+                  "align_len": 61,
+                  "gaps": 3,
+                  "qseq": "GTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaa",
+                  "hseq": "GTTTTTTGAATTTTATTAAAAA-AAAACCAAAATTAAAAAATAAAACCAA--AATAAAAAA",
+                  "midline": "||||||||||| |  ||||||| |||| |||||| |||||  ||||||||  ||| |||||"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gi|519145162|ref|NW_004761052.1|",
+                  "accession": "NW_004761052",
+                  "title": "Musca domestica strain aabys unplaced genomic scaffold, Musca_domestica-2.0.2 Scaffold155",
+                  "taxid": 7370,
+                  "sciname": "Musca domestica"
+                }
+              ],
+              "len": 99804,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.3874,
+                  "score": 60,
+                  "evalue": 0.000508356,
+                  "identity": 73,
+                  "query_from": 896,
+                  "query_to": 994,
+                  "query_strand": "Plus",
+                  "hit_from": 84822,
+                  "hit_to": 84913,
+                  "hit_strand": "Plus",
+                  "align_len": 99,
+                  "gaps": 7,
+                  "qseq": "TGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaa",
+                  "hseq": "TGTTTTTTGAA--AATTCAAAAAAAAAAAAAAAA--AAAA---AAAAGCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAACATTAAAAGATAAAA",
+                  "midline": "|||||||||||   ||| ||||| ||||| ||||  ||||   |||| |||| ||  ||||| |||| |  |||| | | |||||| | ||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gi|1093403284|ref|NW_017535630.1|",
+                  "accession": "NW_017535630",
+                  "title": "Bactrocera latifrons isolate USDA-ARS-PBARC rearing strain unplaced genomic scaffold, ASM185335v1 scaffold_21",
+                  "taxid": 174628,
+                  "sciname": "Bactrocera latifrons"
+                }
+              ],
+              "len": 2188812,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.4857,
+                  "score": 59,
+                  "evalue": 0.00177434,
+                  "identity": 55,
+                  "query_from": 897,
+                  "query_to": 965,
+                  "query_strand": "Plus",
+                  "hit_from": 191088,
+                  "hit_to": 191022,
+                  "hit_strand": "Minus",
+                  "align_len": 70,
+                  "gaps": 4,
+                  "qseq": "GTTTTTTGAA-TGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatat",
+                  "hseq": "GTTTTTTGAATTTTATTTAAAAAAAAAAAAAAA---AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAT",
+                  "midline": "|||||||||| | |||||||||| ||||| |||   |||||  ||||  ||| ||  ||||| |||||||"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gi|519141439|ref|NW_004764775.1|",
+                  "accession": "NW_004764775",
+                  "title": "Musca domestica strain aabys unplaced genomic scaffold, Musca_domestica-2.0.2 Scaffold18850",
+                  "taxid": 7370,
+                  "sciname": "Musca domestica"
+                }
+              ],
+              "len": 423495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.4857,
+                  "score": 59,
+                  "evalue": 0.00177434,
+                  "identity": 51,
+                  "query_from": 895,
+                  "query_to": 957,
+                  "query_strand": "Plus",
+                  "hit_from": 340610,
+                  "hit_to": 340673,
+                  "hit_strand": "Plus",
+                  "align_len": 64,
+                  "gaps": 1,
+                  "qseq": "ATGTTTTTTGAATGTATTTa-aaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaa",
+                  "hseq": "ATATTTCTTGAATGTATTTACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTGAAAAA",
+                  "midline": "|| ||| ||||||||||||| |||| ||||| ||||  |||||  ||||  ||| | |||||||"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gi|1938519486|ref|NW_023998414.1|",
+                  "accession": "NW_023998414",
+                  "title": "Glossina fuscipes isolate IAEA_lab_2018 unplaced genomic scaffold, Yale_Gfus_2 0",
+                  "taxid": 7396,
+                  "sciname": "Glossina fuscipes"
+                }
+              ],
+              "len": 44587383,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00177434,
+                  "identity": 55,
+                  "query_from": 956,
+                  "query_to": 1021,
+                  "query_strand": "Plus",
+                  "hit_from": 20460937,
+                  "hit_to": 20460999,
+                  "hit_strand": "Plus",
+                  "align_len": 68,
+                  "gaps": 7,
+                  "qseq": "AACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATG--TAAGTTTAAATAA",
+                  "hseq": "AACAAAAAA--AAAACACACAAAAAA-TAAAAAAAAAAA--AAAAAAAAAATGATTTAGTTTAAATAA",
+                  "midline": "||||||| |  ||||||||||||| | | ||||||||||  ||||| | ||||  | |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gi|1826846868|ref|NC_046607.1|",
+                  "accession": "NC_046607",
+                  "title": "Drosophila busckii strain San Diego stock center, stock number 13000-0081.31 chromosome 3R, ASM1175060v1",
+                  "taxid": 30019,
+                  "sciname": "Drosophila busckii"
+                }
+              ],
+              "len": 23496986,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.584,
+                  "score": 58,
+                  "evalue": 0.00177434,
+                  "identity": 45,
+                  "query_from": 1011,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 9998223,
+                  "hit_to": 9998274,
+                  "hit_strand": "Plus",
+                  "align_len": 53,
+                  "gaps": 2,
+                  "qseq": "AGTTTAAATAATATGCTATTCAAAGAAATCC-AAAACATGATTACCCATAAAA",
+                  "hseq": "AGTTTAAGTA-TATAATATTCAAAGAAATCCAAAAACATAATTACCAACAAAA",
+                  "midline": "||||||| || |||  ||||||||||||||| ||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gi|2034556902|ref|NW_024542679.1|",
+                  "accession": "NW_024542679",
+                  "title": "Drosophila obscura isolate BZ-5 IFL unplaced genomic scaffold, ASM1815110v1 contig_1",
+                  "taxid": 7282,
+                  "sciname": "Drosophila obscura"
+                }
+              ],
+              "len": 11558308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 52.6823,
+                  "score": 57,
+                  "evalue": 0.00619305,
+                  "identity": 75,
+                  "query_from": 920,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 9088285,
+                  "hit_to": 9088377,
+                  "hit_strand": "Plus",
+                  "align_len": 105,
+                  "gaps": 12,
+                  "qseq": "AAAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAAAAGAAAAGGAAAAAAAAAAA--AAATAAAAAAATAAAAAAAATAAAAAAAGAAAGAAAAAAGAAAAAAAAAAC----AATTGAAT------TTAAATAATAT",
+                  "midline": "||||| |||| ||||||  ||||  ||||||  ||| | |||| || |||| | | | || |  ||||||||||||    ||| ||||      |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gi|1987570750|ref|NW_024109469.1|",
+                  "accession": "NW_024109469",
+                  "title": "Culex pipiens pallens isolate TS unplaced genomic scaffold, TS_Cpip_V1 Cpip_Sc00473",
+                  "taxid": 42434,
+                  "sciname": "Culex pipiens pallens"
+                }
+              ],
+              "len": 358847,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 52.6823,
+                  "score": 57,
+                  "evalue": 0.00619305,
+                  "identity": 85,
+                  "query_from": 895,
+                  "query_to": 1006,
+                  "query_strand": "Plus",
+                  "hit_from": 121260,
+                  "hit_to": 121376,
+                  "hit_strand": "Plus",
+                  "align_len": 119,
+                  "gaps": 9,
+                  "qseq": "ATGTTTTTTGAATG-----TATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaac-aaaatatgaaaacacacaaa-acactgaaaaaaaaaaccaaaaaTAGAA",
+                  "hseq": "ATGTTTTTTGAATGACTCATATTTAAAAAAAATACAAAAATACAAAAATACAA--AAATACAAAAATACAAAAATACAAAAATACAAAAATACAAAAATACAAAAATACAAAAATACAA",
+                  "midline": "||||||||||||||     |||||||||| || |  |||||  ||||  | ||  |||||   ||| || ||||||  |||| ||| ||| |||   | | |||||  |||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gi|1936239474|ref|NW_023994648.1|",
+                  "accession": "NW_023994648",
+                  "title": "Lucilia sericata isolate MDLA Ls3-8-SP2 unplaced genomic scaffold, ASM1558622v1 Contig000642F_arrow",
+                  "taxid": 13632,
+                  "sciname": "Lucilia sericata"
+                }
+              ],
+              "len": 259109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 52.6823,
+                  "score": 57,
+                  "evalue": 0.00619305,
+                  "identity": 45,
+                  "query_from": 976,
+                  "query_to": 1030,
+                  "query_strand": "Plus",
+                  "hit_from": 158940,
+                  "hit_to": 158992,
+                  "hit_strand": "Plus",
+                  "align_len": 55,
+                  "gaps": 2,
+                  "qseq": "AAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATT",
+                  "hseq": "AAAAAACTAAAAATAAAAACCTAAAAGAGAAA--AAGTTTAAATAAAATGTTATT",
+                  "midline": "|||| ||| |||| ||||||| |||| ||||   |||||||||||| ||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gi|2015680800|ref|NC_053520.1|",
+                  "accession": "NC_053520",
+                  "title": "Anopheles coluzzii isolate MOPTI chromosome X, AcolMOP1",
+                  "taxid": 1518534,
+                  "sciname": "Anopheles coluzzii"
+                }
+              ],
+              "len": 27656523,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.00619305,
+                  "identity": 36,
+                  "query_from": 390,
+                  "query_to": 428,
+                  "query_strand": "Plus",
+                  "hit_from": 8936388,
+                  "hit_to": 8936427,
+                  "hit_strand": "Plus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "TTGATCATAACACAAACAC-GAAACCAAACCAAACACCAC",
+                  "hseq": "TTGATCAACACACAAACACAGAAACCAAACCAAACACTAC",
+                  "midline": "|||||||  |||||||||| ||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gi|1046742891|ref|NW_016168354.1|",
+                  "accession": "NW_016168354",
+                  "title": "Rhagoletis zephyria isolate East Lansing unplaced genomic scaffold, Rhagoletis_zephyria_1.0 Rzeph_scaffold_11277",
+                  "taxid": 28612,
+                  "sciname": "Rhagoletis zephyria"
+                }
+              ],
+              "len": 19467,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.00619305,
+                  "identity": 86,
+                  "query_from": 916,
+                  "query_to": 1034,
+                  "query_strand": "Plus",
+                  "hit_from": 3804,
+                  "hit_to": 3909,
+                  "hit_strand": "Plus",
+                  "align_len": 119,
+                  "gaps": 13,
+                  "qseq": "AAACAAAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCTATTCAAA",
+                  "hseq": "AAACCAAAATATAATAAAATACATAAATTAAATAA-----AACGAAATAAAAAAAC-CAAATAACA-TGATAAAACAAA--AAAAATAAA---TAAATA-AAATAATATGCTTTTCAAA",
+                  "midline": "|||| |||| | ||| ||| ||  |||  ||||||     ||| |||||  ||||| || | |||| ||| |||| |||  ||||||| |   ||| |  |||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gi|119024588|ref|NC_004818.2|",
+                  "accession": "NC_004818",
+                  "title": "Anopheles gambiae str. PEST chromosome X, whole genome shotgun sequence",
+                  "taxid": 180454,
+                  "sciname": "Anopheles gambiae str. PEST"
+                }
+              ],
+              "len": 24393108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.7806,
+                  "score": 56,
+                  "evalue": 0.00619305,
+                  "identity": 36,
+                  "query_from": 390,
+                  "query_to": 428,
+                  "query_strand": "Plus",
+                  "hit_from": 8944954,
+                  "hit_to": 8944993,
+                  "hit_strand": "Plus",
+                  "align_len": 40,
+                  "gaps": 1,
+                  "qseq": "TTGATCATAACACAAACAC-GAAACCAAACCAAACACCAC",
+                  "hseq": "TTGATCAACACACAAACACAGAAACCAAACCAAACACTAC",
+                  "midline": "|||||||  |||||||||| ||||||||||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gi|1965398689|ref|NC_052499.1|",
+                  "accession": "NC_052499",
+                  "title": "Bactrocera tryoni isolate S06 chromosome 1, CSIRO_BtryS06_freeze2",
+                  "taxid": 59916,
+                  "sciname": "Bactrocera tryoni"
+                }
+              ],
+              "len": 90445925,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 44,
+                  "query_from": 1013,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 90107392,
+                  "hit_to": 90107443,
+                  "hit_strand": "Plus",
+                  "align_len": 53,
+                  "gaps": 4,
+                  "qseq": "TTTAAATAATATGC---TATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "TTTCAATA-TATGCAAATATTTAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "||| |||| |||||   |||| ||||||||||||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gi|1965398688|ref|NC_052500.1|",
+                  "accession": "NC_052500",
+                  "title": "Bactrocera tryoni isolate S06 chromosome 2, CSIRO_BtryS06_freeze2",
+                  "taxid": 59916,
+                  "sciname": "Bactrocera tryoni"
+                }
+              ],
+              "len": 85403544,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 81,
+                  "query_from": 912,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 23076370,
+                  "hit_to": 23076477,
+                  "hit_strand": "Plus",
+                  "align_len": 114,
+                  "gaps": 7,
+                  "qseq": "TTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaaca-cacaaaacactgaaaaaaaaaaccaaaaaTAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "TTAATAA-AAAAATATATTTATAAACCAAAAAAATATTAAGAAAAAAACAAAATACAATCAACACTAAATACAATAAAAAAGAATTAAAAAT-----GCAAGTTTAAATAATAT",
+                  "midline": "|||| || ||||| | | | | |||||||||  | || | |||||| | || ||  || || ||| ||| ||   |||||| ||  ||||||     | |||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gi|1912491720|ref|NW_023458559.1|",
+                  "accession": "NW_023458559",
+                  "title": "Rhagoletis pomonella isolate Grant_MI unplaced genomic scaffold, Rhpom_1.0 Rhpom_scaffold_00005",
+                  "taxid": 28610,
+                  "sciname": "Rhagoletis pomonella"
+                }
+              ],
+              "len": 82790211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 85,
+                  "query_from": 916,
+                  "query_to": 1034,
+                  "query_strand": "Plus",
+                  "hit_from": 76819601,
+                  "hit_to": 76819711,
+                  "hit_strand": "Plus",
+                  "align_len": 120,
+                  "gaps": 10,
+                  "qseq": "AAACAAAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTA-AGTTTAAATAATATGCTATTCAAA",
+                  "hseq": "AAACAAAAATATAATAAAATACATAAATTAAATGA-----AACGAAATAAAAAAAC-CAAATAACAT---AAGATAAAACAAAAAATAAAATAAATAAATAAAATAATATGCTTTTCAAA",
+                  "midline": "||||||||| | ||| ||| ||  |||  |||| |     ||| |||||  ||||| || | ||||    || | ||||| ||||||| |||  | |  | |||||||||||| ||||||"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gi|1940086688|ref|NC_051847.1|",
+                  "accession": "NC_051847",
+                  "title": "Teleopsis dalmanni isolate 2A chromosome 2, ASM223713v2",
+                  "taxid": 139649,
+                  "sciname": "Teleopsis dalmanni"
+                }
+              ],
+              "len": 246003176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 83,
+                  "query_from": 901,
+                  "query_to": 1007,
+                  "query_strand": "Plus",
+                  "hit_from": 194423727,
+                  "hit_to": 194423835,
+                  "hit_strand": "Plus",
+                  "align_len": 114,
+                  "gaps": 12,
+                  "qseq": "TTTGAATGTATTTaaaaaca---aaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatga--aaacacacaaaacactgaaaaaaaa--aaccaaaaaTAGAAT",
+                  "hseq": "TTTGAATGTATTGAAAAACAACCAATAAAAAATTAATAAATTTATC--AATAATTAAAA--AAAAT-TGAATAAAAACAAAAAAAATTGAATAAAAACTAAATAAAAATTGAAT",
+                  "midline": "|||||||||||| |||||||   || | ||||| || ||    | |  |||||| ||||  ||||| |||  ||| ||| |||| | |||| |||||  ||  |||||| ||||"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 83,
+                  "query_from": 901,
+                  "query_to": 1007,
+                  "query_strand": "Plus",
+                  "hit_from": 194435973,
+                  "hit_to": 194435865,
+                  "hit_strand": "Minus",
+                  "align_len": 114,
+                  "gaps": 12,
+                  "qseq": "TTTGAATGTATTTaaaaaca---aaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatga--aaacacacaaaacactgaaaaaaaa--aaccaaaaaTAGAAT",
+                  "hseq": "TTTGAATGTATTGAAAAACAACCAATAAAAAATTAATAAATTTATC--AATAATTAAAA--AAAAT-TGAATAAAAACAAAAAAAATTGAATAAAAACTAAATAAAAATTGAAT",
+                  "midline": "|||||||||||| |||||||   || | ||||| || ||    | |  |||||| ||||  ||||| |||  ||| ||| |||| | |||| |||||  ||  |||||| ||||"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gi|1093401120|ref|NW_017537623.1|",
+                  "accession": "NW_017537623",
+                  "title": "Bactrocera latifrons isolate USDA-ARS-PBARC rearing strain unplaced genomic scaffold, ASM185335v1 scaffold_92",
+                  "taxid": 174628,
+                  "sciname": "Bactrocera latifrons"
+                }
+              ],
+              "len": 1298714,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 70,
+                  "query_from": 901,
+                  "query_to": 993,
+                  "query_strand": "Plus",
+                  "hit_from": 252820,
+                  "hit_to": 252909,
+                  "hit_strand": "Plus",
+                  "align_len": 97,
+                  "gaps": 11,
+                  "qseq": "TTTGAATGTAT----TTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaa",
+                  "hseq": "TTTGAATGTATAATATTAAAAAAAAAAAAAAAA--AAAAAAAAAAAAAAAAAAAAAAATAAAAAAATTTCAAAAAAAAAAAAA-----AAAAAAAAA",
+                  "midline": "|||||||||||    ||||||| ||||| ||||  |||||  ||||  ||| ||  || || ||||| | |||| | | ||||     |||||||||"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gi|751403618|ref|NW_011876400.1|",
+                  "accession": "NW_011876400",
+                  "title": "Bactrocera dorsalis strain Punador unplaced genomic scaffold, ASM78921v2 scaffold00001",
+                  "taxid": 27457,
+                  "sciname": "Bactrocera dorsalis"
+                }
+              ],
+              "len": 6840757,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 44,
+                  "query_from": 1013,
+                  "query_to": 1062,
+                  "query_strand": "Plus",
+                  "hit_from": 1989109,
+                  "hit_to": 1989160,
+                  "hit_strand": "Plus",
+                  "align_len": 53,
+                  "gaps": 4,
+                  "qseq": "TTTAAATAATATGC---TATTCAAAGAAATCCAAAACATGATTACCCATAAAA",
+                  "hseq": "TTTCAATA-TATGCAAATATTTAAAGAAATCCAAAACATAATTACCAACAAAA",
+                  "midline": "||| |||| |||||   |||| ||||||||||||||||| |||||| | ||||"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gi|1308264360|ref|NW_019376390.1|",
+                  "accession": "NW_019376390",
+                  "title": "Ceratitis capitata unplaced genomic scaffold, Ccap_2.1 scaffold224",
+                  "taxid": 7213,
+                  "sciname": "Ceratitis capitata"
+                }
+              ],
+              "len": 495712,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8789,
+                  "score": 55,
+                  "evalue": 0.0216159,
+                  "identity": 81,
+                  "query_from": 921,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 436672,
+                  "hit_to": 436780,
+                  "hit_strand": "Plus",
+                  "align_len": 112,
+                  "gaps": 11,
+                  "qseq": "AAAACAAAATGAA--AAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACAC-AAAACAC----TGAAAAAAAAAACCAAA-AATAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAAGCAAAATAAACTAAAAAAAAAATAAATAATAATAAACAAAATA---AATCAGATTAAAACACATAATTAAAAATAAAATAAAATAATATAAAATAAAATTAAATAATAT",
+                  "midline": "||| |||||| ||  |||  ||||  ||||||| | ||||||||||   || || |  |||||||    | ||||| ||||  ||| |||| ||  |||  |||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gi|1912482034|ref|NW_023463603.1|",
+                  "accession": "NW_023463603",
+                  "title": "Rhagoletis pomonella isolate Grant_MI unplaced genomic scaffold, Rhpom_1.0 Rhpom_scaffold_05055",
+                  "taxid": 28610,
+                  "sciname": "Rhagoletis pomonella"
+                }
+              ],
+              "len": 13313,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 74,
+                  "query_from": 921,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 896,
+                  "hit_to": 799,
+                  "hit_strand": "Minus",
+                  "align_len": 104,
+                  "gaps": 6,
+                  "qseq": "AAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAAATAATAATAAAAAAAATAAATAAATAAATAAAAATAAAATAAAAAAATA---AAAATATTAAAAATAAAAAT---AAATAAAAAGTAAGTTTAAAACATAT",
+                  "midline": "|||| || |  |||||  | ||  ||||||  ||||| ||||||  |||| |   |||| | | |||| |||||    ||||| || |||||||||||  ||||"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gi|1912481749|ref|NW_023463659.1|",
+                  "accession": "NW_023463659",
+                  "title": "Rhagoletis pomonella isolate Grant_MI unplaced genomic scaffold, Rhpom_1.0 Rhpom_scaffold_05113",
+                  "taxid": 28610,
+                  "sciname": "Rhagoletis pomonella"
+                }
+              ],
+              "len": 13164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 74,
+                  "query_from": 921,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 896,
+                  "hit_to": 799,
+                  "hit_strand": "Minus",
+                  "align_len": 104,
+                  "gaps": 6,
+                  "qseq": "AAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAAATAATAATAAAAAAAATAAATAAATAAATAAAAATAAAATAAAAAAATA---AAAATATTAAAAATAAAAAT---AAATAAAAAGTAAGTTTAAAACATAT",
+                  "midline": "|||| || |  |||||  | ||  ||||||  ||||| ||||||  |||| |   |||| | | |||| |||||    ||||| || |||||||||||  ||||"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gi|1093403941|ref|NW_017535019.1|",
+                  "accession": "NW_017535019",
+                  "title": "Bactrocera latifrons isolate USDA-ARS-PBARC rearing strain unplaced genomic scaffold, ASM185335v1 scaffold_155",
+                  "taxid": 174628,
+                  "sciname": "Bactrocera latifrons"
+                }
+              ],
+              "len": 774808,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 71,
+                  "query_from": 894,
+                  "query_to": 994,
+                  "query_strand": "Plus",
+                  "hit_from": 323545,
+                  "hit_to": 323638,
+                  "hit_strand": "Plus",
+                  "align_len": 101,
+                  "gaps": 7,
+                  "qseq": "TATGTTTTTTGAATGTATTTaaaaacaaaaacaaaatgaaaaaccaaaaccaaataatgaaaaacaaaatatgaaaacacacaaaacactgaaaaaaaaaa",
+                  "hseq": "TATGTTTTTTGCA-------AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                  "midline": "||||||||||| |       ||||| ||||| ||||  |||||  ||||  ||| ||  ||||| |||| |  |||| | | |||| |   ||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "gi|1046753367|ref|NW_016157883.1|",
+                  "accession": "NW_016157883",
+                  "title": "Rhagoletis zephyria isolate East Lansing unplaced genomic scaffold, Rhagoletis_zephyria_1.0 Rzeph_scaffold_00799",
+                  "taxid": 28612,
+                  "sciname": "Rhagoletis zephyria"
+                }
+              ],
+              "len": 190080,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 74,
+                  "query_from": 921,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 7070,
+                  "hit_to": 7167,
+                  "hit_strand": "Plus",
+                  "align_len": 104,
+                  "gaps": 6,
+                  "qseq": "AAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAAATAATAATAAAAAAAATAAATAAATAAATAAAAATAAAATAAAAAAATA---AAAATATTAAAAATAAAAAT---AAATAAAAAGTAAGTTTAAAACATAT",
+                  "midline": "|||| || |  |||||  | ||  ||||||  ||||| ||||||  |||| |   |||| | | |||| |||||    ||||| || |||||||||||  ||||"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gi|1046741797|ref|NW_016169448.1|",
+                  "accession": "NW_016169448",
+                  "title": "Rhagoletis zephyria isolate East Lansing unplaced genomic scaffold, Rhagoletis_zephyria_1.0 Rzeph_scaffold_12374",
+                  "taxid": 28612,
+                  "sciname": "Rhagoletis zephyria"
+                }
+              ],
+              "len": 17399,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 74,
+                  "query_from": 921,
+                  "query_to": 1024,
+                  "query_strand": "Plus",
+                  "hit_from": 1124,
+                  "hit_to": 1027,
+                  "hit_strand": "Minus",
+                  "align_len": 104,
+                  "gaps": 6,
+                  "qseq": "AAAACAAAATGAAAAACCAAAACCAAATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATAT",
+                  "hseq": "AAAATAATAATAAAAAAAATAAATAAATAAATAAAAATAAAATAAAAAAATA---AAAATATTAAAAATAAAAAT---AAATAAAAAGTAAGTTTAAAACATAT",
+                  "midline": "|||| || |  |||||  | ||  ||||||  ||||| ||||||  |||| |   |||| | | |||| |||||    ||||| || |||||||||||  ||||"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "gi|1719031133|ref|NW_022046301.1|",
+                  "accession": "NW_022046301",
+                  "title": "Drosophila navojoa isolate navoj_Jal97 unplaced genomic scaffold, UFRJ_Dnav_4.2",
+                  "taxid": 7232,
+                  "sciname": "Drosophila navojoa"
+                }
+              ],
+              "len": 43763,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 33,
+                  "query_from": 985,
+                  "query_to": 1021,
+                  "query_strand": "Plus",
+                  "hit_from": 2147,
+                  "hit_to": 2183,
+                  "hit_strand": "Plus",
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "AAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAA",
+                  "hseq": "AAAAAAAAAACAAATAATCTAATGTAAGTTTAAATAA",
+                  "midline": "||||||||||| || |||  |||||||||||||||||"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gi|1904730521|ref|NW_021652784.1|",
+                  "accession": "NW_021652784",
+                  "title": "Bactrocera oleae isolate Demokritus unplaced genomic scaffold, MU_Boleae_v2 Contig1825_pilon_pilon",
+                  "taxid": 104688,
+                  "sciname": "Bactrocera oleae"
+                }
+              ],
+              "len": 5477966,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 45,
+                  "query_from": 985,
+                  "query_to": 1038,
+                  "query_strand": "Plus",
+                  "hit_from": 1356349,
+                  "hit_to": 1356400,
+                  "hit_strand": "Plus",
+                  "align_len": 55,
+                  "gaps": 4,
+                  "qseq": "AAAAAAAAAACCAAAAATAGAATGTAAG-TTTAAATAATATGCTATTCAAAGAAA",
+                  "hseq": "AAAAAAAAAACTAAAAATAAAAAGAAAAATTTAAATAATA---TATTCAAAGTAA",
+                  "midline": "||||||||||| ||||||| || | ||  |||||||||||   ||||||||| ||"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gi|1315549010|ref|NW_019410433.1|",
+                  "accession": "NW_019410433",
+                  "title": "Lucilia cuprina strain LS unplaced genomic scaffold, Lcup_2.0 scaffold5",
+                  "taxid": 7375,
+                  "sciname": "Lucilia cuprina"
+                }
+              ],
+              "len": 1781960,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.9773,
+                  "score": 54,
+                  "evalue": 0.0216159,
+                  "identity": 78,
+                  "query_from": 946,
+                  "query_to": 1054,
+                  "query_strand": "Plus",
+                  "hit_from": 713180,
+                  "hit_to": 713285,
+                  "hit_strand": "Plus",
+                  "align_len": 111,
+                  "gaps": 7,
+                  "qseq": "AATAATGAAAAACAAAATATGAAAACACACAAAACACTGAAAAAAAAAACCAAAAATAGAATGTAAGTTTAAATAATATGCT--ATTCAAAGAAATCCAAAACATGATTAC",
+                  "hseq": "AATATTAAAAAATAACATATGAATAAACACGGAGCA-----AAAAAAAACGAAAAGAATAATAAAATGTTAAATAATATTATAAATTCATCAAAAACACAAACATGAATAC",
+                  "midline": "|||| | ||||| || ||||||| | ||||  | ||     ||||||||| ||||  | |||  ||  |||||||||||  |  |||||   ||| |  |||||||| |||"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 386357,
+            "db_len": 1852066528,
+            "hsp_len": 36,
+            "eff_space": 23942444998212,
+            "kappa": 0.41,
+            "lambda": 0.625,
+            "entropy": 0.78
+          }
+        }
+      }
+    }
+  }
+]
+}
+

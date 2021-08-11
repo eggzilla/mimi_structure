@@ -1,0 +1,46 @@
+CLUSTAL W --- LocARNA 2.0.0RC8 --- Score: 203047
+
+                              ..((((.((.(((((.((.((((....(((((((((((.((...(((((((((((((.((..((............))...)).))))....)))))))))))))))))))).((((((.
+NC_052523.1:20206768-20207826 AAGGGUCGAAUGCGGAUCCCUUGCCCCAGCGGCUAUUCGCCUGCGCACUCAACCCAUCCCUGGCACACUACACGAAGCGACGGCGUGGCCCAGUUGGGUGCGGGAAUAGCCGGAUCCGGC
+NC_046670.1:20931002-20932054 AAGGGUCGAGUGCGGAUCCCUUGCCCCAGCGGCUAUUCGCCUGCGCACUCAACCCAUCCCUGGCACACUACACGAAGCGACGGCGUGGCCCAGUUGGGUGCGGGAAUAGCCGGAUCCGGC
+                              ..((((.((.(((((.((.((((....(((((((((((.((...(((((((((((((.((..((............))...)).))))....)))))))))))))))))))).((((((.
+
+                              ........))))))......))((..((((((...(((((((.((......)).))).......((((....((...(((....)))..))....)))).))))...))))))..)).((
+NC_052523.1:20206768-20207826 AUCAAAAACCGGAUAAACCAUUGAGCGCGGGACGCACUCGGCUGCAGGUCCGCCGCCCAAACAAGGUCACACCGAGAGGCACACGUCCACGAACAGACCAGAGUUCUUCCCGCAAUCCAU
+NC_046670.1:20931002-20932054 AUCAAAAACCGGAUAAACCAUUGAGCGCGGGACGCACUCGGCUGCGGGUCCGCCGCCCAAACAAGGUCACACCGAGAGGCACACGUCCACGAACAGACCAGAGUUCUUCCCGCAAUCCAU
+                              ........))))))......))((..((((((...(((((((.((......)).))).......((((....((...(((....)))..))....)))).))))...))))))..)).((
+
+                              (((((..(((((((((((((....((...))..)).)))))))))))...............(((..(((((..(((((((((.((((((((((..(((.((((....)))).))).)))
+NC_052523.1:20206768-20207826 CAGACACGCACUGCCAUGGAAAGGUCACGGAAAUCGCAUGGCAGUGCUCACCAAAAUCCAAAUCCAAGCCCAAUCCGUCCCUGGUCUCGCCCCCUGCGAAUCCGCUUGUGGAUUUGGGGG
+NC_046670.1:20931002-20932054 CAGACACGCACUGCCAUGGAAAGGUCACGGAAAUCGCAUGGCAGUGCUCACCAAAAUCCAAAUCCAAGCCCAAUCCGUCCCUGGUCUCGCCCCCUGCGAAUCCGCAUGCGGACUUGUGGG
+                              (((((..(((((((((((((....((...))..)).)))))))))))...............(((..(((((..(((((((((.((((((((((..(((.((((....)))).))).)))
+
+                              ))))))))).))))))).))))).))))))))))..............((((((.(((((((...........)))).))).))((((((.(((.(((((((((((........((((((
+NC_052523.1:20206768-20207826 GGUGGGGUAUGGGGCGGCUGGGUGGGAGUUUGAUCUUAACACAAACACGAAACCAAACCAAACACCACCACCCUUUGCGUUCGGCAAAUCACCUCCGGCUGCGAUUAAGGGGCUCAGUGC
+NC_046670.1:20931002-20932054 GGUGGGGUAUGGGGCGGCUGGGUGGGAGUUUGAUCUUAACACAAACACGAAACCAAACCAAACACCACCACCCUUUGCGUUCGGCAAAUCACCUCCGGCUGCGAUUAAGGGGCUCAGUGC
+                              ))))))))).))))))).))))).))))))))))..............((((((.(((((((...........)))).))).))((((((.(((.(((((((((((........((((((
+
+                              ..((((((((((((((....)))((......)).(((...)))((((((.(((......)))))))))((((.((((((((((.(((((...((((.(((((((((((((((.(((.(((
+NC_052523.1:20206768-20207826 CAGGGGUUAAUCGGAGCACACUCGACCGAUUUCCGUGACAUACGUCUCUAGCCAAAUCCGGCAGAGAUCGGAGGGCGCGCCCGACGCCACCAGUCGUGGGCUAUGCAAUGGAUUGAACGA
+NC_046670.1:20931002-20932054 CAGGGGUUAAUCGGAGCACACUCGACCGAUUUCCGUGACAUACGUCUCUAGCCAAAUCCGGCAGAGAUCGGAGGGCGCGCCCGACGCCACCAGUCGUGGGCUAUGCAAUGGAUUGAACGA
+                              ..((((((((((((((....)))((......)).(((...)))((((((.(((......)))))))))((((.((((((((((.(((((...((((.(((((((((((((((.(((.(((
+
+                              ...((.((..(((((.((...((((((((((...)).....)))..)))))..))))))).)))))))........))))))...)))))))))))).)))).....))))).)).))))
+NC_052523.1:20206768-20207826 AACAUGCGCCAGAGCCAAUUUUUAUAUUUGACCAUUAAGAAAAACCUAUGAUUUUGCUUUACGAUUCGACCCACUAUCAUCCCAGAUUGCGUAGCCCCCGGCGUCCUUGGCGACGCGGCG
+NC_046670.1:20931002-20932054 AACAUGCGCCAGAGCCAAUUUUUAUAUUUGACCAUUAAGAAAAACCUAUGAUUUUGCUUUACGAUUCGACCCACUAUCAUCCCAGAUUGCGUAGCCUCCGGCGUCCAUGGCGACGCGGCG
+                              ...((.((..(((((.((...((((((((((...)).....)))..)))))..))))))).)))))))........))))))...)))))))))))).)))).....))))).)).))))
+
+                              .)))).))))((...)).(((((.(((((..........)))))...))))).)))))))))))..)))..)))))))))))).)).))).)))))).))....))((....((((....
+NC_052523.1:20206768-20207826 UCGUCAUCCGGACCAUCCUCCAGCACGCCUUCCAAAAUUGGCGUUCACUGGAUCGAUUAGCCCCCAGCAAAUUGAAUCGCAGCCCGCAGGAGAUUUGGUUAUUAUCGCCUCAUUUCGUAC
+NC_046670.1:20931002-20932054 UCGUCAUCCGGACCAUCCUCCAGCACGCCUUCCAAAAUUGGCGUUCACUGGAUCGAUUAGCCCCCAGCAAAUUGAAUCGCAGCCCGCAGGAGAUUUGGUUAUUAUCGCCUCAUUUCGUAC
+                              .)))).))))((...)).(((((.(((((..........)))))...))))).)))))))))))..)))..)))))))))))).)).))).)))))).))....))((....((((....
+
+                              ...))))....))..))))))....)))))..))((((((((.........(((.(((((((((..(((..............)))...))))))).)).))).......))))))))..
+NC_052523.1:20206768-20207826 AAAGAGAAACCGCAACAAGGAAACACUGCACAUCGUUUUUUACACCCUUGCGUUAUGUUUUUUGAAUGUAUUUAAAAACAAAAACAAAAUGAAAAACCAAAACCAAAUAAUGAAAAACAA
+NC_046670.1:20931002-20932054 AAAGAGAAACCGCAACAAGGAAACACUGCACAUCGUUUUUUACACCCUUGCGUUAUGUUUUUUGAAUGUAUUU------AAAAACAAAAUGAAAAACCAAAACCUAAUAAUGAAAAACAA
+                              ...))))....))..))))))....)))))..))((((((((.........(((.(((((((((..(((....------....)))...))))))).)).))).......))))))))..
+
+                              ....((......))((......))...............(((((((.(((.....))).))).)))).....((((........)))))))).......
+NC_052523.1:20206768-20207826 AAUAUGAAAACACACAAAACACUGAAAAAACCAAAAAUAGAAUGUAAGUUUAAAUAAUAUGCUAUUCAAAGAAAUCCAAAACAUGAUUACCCAUAAAAC
+NC_046670.1:20931002-20932054 AAUAUGAAAACACACAAAACACUGAAAAAACCAAAAAUAGAAUGUAAGUUUAAAUAAUAUGCUAUUCAAAGAAAUCCAAAACAUGAUUACCCAUAAAAC
+                              ....((......))((......))...............(((((((.(((.....))).))).)))).....((((........)))))))).......

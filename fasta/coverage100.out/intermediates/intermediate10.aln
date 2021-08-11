@@ -1,0 +1,51 @@
+CLUSTAL W --- LocARNA 2.0.0RC8 --- Score: 153922
+
+                               .......((((((((........))))..(((((((((....)))))))))..((.(((.((....-----------(((.(((.(((((.....))))).((((((((..(((((((.(
+NW_016038966.1:23959-25045     GUUUUAUGGGUAAUCAUGUUUUGGAUUUCUUUGAAUAGCAUAUUAUUUAAACUUACAUUCUAUGUU-----------UGUGUUUUGUGUGUUUUUCAUAUUUUGUUUUUCUUAUAUUUGG
+NW_023496819.1:1955742-1956807 GUUUUAUGGGUAAUCAUGUUUUGGAUUUCUUUGAAUAGCAUAUUAUUUAAACUUACAUUCUAUUUUUGGUUUUCUUCUGUGUUUUGUGUGUUUUUCAUAUUUUGUUUUUCUUAUAUUUGG
+                               .......((((((((........))))..(((((((((....)))))))))..((.(((.((...............(((.(((.(((((.....))))).((((((((..(((((((.(
+
+                               ((((((......(((.......))).......))))))).......))..)))))))))))))........(((((.(((((((.(((((.........)))))...))))))))))))(
+NW_016038966.1:23959-25045     UUUUUUGUUUUUUUUUUCUUUUAAAUACAUUCAAAAAACAUAACGCAAGGGUGUAAAAAACGAUGUGCAGUGUUUUCUUGUUGCGGUUUCUCUUUGUACGAAAUGAGGCGAUAAAAAACC
+NW_023496819.1:1955742-1956807 UUUUUUUUUUCAUUU---UUUUAAAUACAUUCAAAAAACAUAACGCAAGGGUGUAAAAAACGAUGUGCAGUGUUUUCUUGUUGCGGUUUCUCUUUGUACGAAAUGAGGCGAUAAAAAACC
+                               ((((((......(((---....))).......))))))).......))..)))))))))))))........(((((.(((((((.(((((.........)))))...))))))))))))(
+
+                               (((((.(((.((.(((((((((((...(((((((((.((((((.((((....(((((..((...)).)))))..))))........((((.((((.((((...(((.((.........((
+NW_016038966.1:23959-25045     AAAUCUCCUGCGGGCUGCGAUUCAAUUUGCUGGGGGCUAAUCGAUCCAAUGAAGGCCAAUUUUGGAAGGCCUCCUGGAGGAUGGGCCGGAUGACGACGCCGCAUCGCCAAUAAAAAGGAG
+NW_023496819.1:1955742-1956807 AAAUCUCCUGCGGGCUGCGAUUCAAUUUGCUGGGGGCUAAUCGAUCCAGUAGAUGCCAAUUUUGGAAGGCAUCCUGGAGGAUGGGUCGGAUGGCGACGCCGCAUCGCCGA-------AGG
+                               (((((.(((.((.(((((((((((...(((((((((.((((((.((((....(((((..((...)).)))))..))))........((((.((((.((((...(((.((.-------.((
+
+                               ....((.((((((.(((((...((((((....(((...(((........((.((((((...)))))).))......(((((.((......))))))).)))..)))...)))))).....
+NW_016038966.1:23959-25045     ACGCCGAUGGCUACGCAAUCUGGGAUGAUAUAGUGGUUCCGAAUGGUAAAGCAAAAUCAUAGGUUUUUUUCGUAAUGGUCAAAUAUAAAAAUUGGCUCUGGCGCAUGUUUCGUUCAAUCC
+NW_023496819.1:1955742-1956807 ACGCCGGGGGCUACGCAAUCUGGGAUGAU-UAGUGGGUCCGAAUGGUAAAGCAAAAUCAUAGGUUUUUCU--UAAUGGUCAAAUAUAAAAAUUGGCUCUGGCGCAUGUUUCGUUCAAUCC
+                               ....((.((((((.(((((...((((((.-..(((...(((........((.((((((...)))))).))--....(((((.((......))))))).)))..)))...)))))).....
+
+                               ))))).)))))).)).))...)).)))..)))))))).)))).((((((....-.....)))))).(((((((((((...)).)).)).)))))..)))))).))))))))).))((...
+NW_016038966.1:23959-25045     AUUGCAUAGCCAUCGCCUGGCUGACGAAGGGCGUGUCCUCCGAUCUCUGCCUU-AUAAACAGAGACGUAUGUCACGGAAAUCGGUCGAGUGUGCUCCGAUUAACCCCUGGCACUGAGCCC
+NW_023496819.1:1955742-1956807 AUUGCAUAGCCCACGGCUGG-UGGCGAACGGCGCGUCCUCCGAUCUCUGCCUGAACUGGCAGAGACGUAUGUCACGGAAAUCGGUCGAGUGUGCGUCGAUUAACCCCUGGCACUGAGCCC
+                               ))))).)))))).)).))..-)).)))..)))))))).)))).((((((..........)))))).(((((((((((...)).)).)).)))))..)))))).))))))))).))((...
+
+                               )).))))))))))).))).))))))..))).))).((((((......))))))...)).))).))....((..((........)).)).((((((((..-..............((((((
+NW_016038966.1:23959-25045     CUUAAUCGCAGCCGGAGGUGAUUUGCCGAACGCAAAGGGUGGUGUGGUAUUCUCUAUAGAGUGUGUAGAUGUAAGGUUCAAACUUCCAGGACCUGCCGC-CCAGAACCCCACCGCCAAGA
+NW_023496819.1:1955742-1956807 CUUAAUCGCAGCCGGAGGUGAUUUGCCGAACGCAAAGGGUGGU---GUAUUCUU--UAGAGUGUGUAUGUU-AGGCUCCCAAACCCAAUGACCCGCCCUGCCGUCACCCCACCCCCAAAA
+                               )).))))))))))).))).))))))..))).))).((((((..---.)))))).--)).))).))....((-.((........)).)).((((((((.................((((((
+
+                               ((((.....(((((((.....)))))))..((...)).---))(((......))).......))))))))....((((((((((.((...........-...))))))))))))....((
+NW_016038966.1:23959-25045     UCCGUUUCCGGUUCCGGGUGGCGGGGCCAGCGGAAUGA---UGGCCUUGGAUGGUUUGGUUUGAUUUUGGUGAGCACUGCCAUGCGAUUUCCGUGACC-UUUUCCAUGGCAGUGCGUGUU
+NW_023496819.1:1955742-1956807 UCCGUUUCCGGUUCCGGGGGGCGGAGCCAGCAGAAUGGGCUCGGAUUUGGAUAUUAUG----GAUUUUGGUGUACACUGCCAUGCGAUUUCCGUGACCUUUUUCCAUGGCAGUGCGUGUC
+                               ((((.....(((((((.....)))))))..((...))....))(((......)))...----))))))))....((((((((((.((...............))))))))))))....((
+
+                               ......)).....((((((.....))))))(((....)))...................(((...)))............))))))))......((((((((....(((..((..((((.
+NW_016038966.1:23959-25045     UAGAAUGGCUUGCGCGGGAAAAACUCUCGUCUGUUCAUGGUCGUGUGUUUUUUUGGGGUUCGGUGUGACCUUGUGUGGGCGGCGGGUCGGCAGCCGAGUGCGUCCCGCUCUCAAAGGUUU
+NW_023496819.1:1955742-1956807 U--GAUGGCUUGCGCGGGAAAAACUCUCGUCUGUAUAUGGUCGUGUUUAUUUU-----UUCGGUGUGACCUUGUGUGGGCGGCGGGUCCUCAGCCGAGUGCGUCCCGCUCCCAAUGGUUU
+                               .--...)).....((((((.....))))))(((....))).............-----.(((...)))............))))))))......((((((((....(((..((..((((.
+
+                               ((((...((..........))....)))).(((.((.((((((((...((((.((..............)).))))..))))..))))))..)))..((......))...))))..)).)
+NW_016038966.1:23959-25045     AUUCGGGUUCGAGAAUCGGAAUCCCGAAUCCGGCUAUUCCCGCACCCUACUGGACCGCGUCGUCGCUUCGUGUAGUGUGUGCCAGGGAUGAACCGAGUGCGCAGGCGUAUAGCCGCUGAG
+NW_023496819.1:1955742-1956807 AUCCUGGUUAUAGAA---GAA--CCGGAUCCGGCUAUUCCCGCACCCAACUGGACCACGUCGUCACUUCGUGUAGU--GUGCCAGGGAUGGGCCGAGUGCGCAGGCGAAUAGCCGCUGAA
+                               ((((...((......---.))--..)))).(((.((.((((((((...((((.((..............)).))))--))))..))))))..)))..((......))...))))..)).)
+
+                               ))........))))))))))))..
+NW_016038966.1:23959-25045     GCGGGGUAUCCGCACUCGACCCUU
+NW_023496819.1:1955742-1956807 GCAGGGGAUCCGCACUCGACCCUU
+                               ))........))))))))))))..

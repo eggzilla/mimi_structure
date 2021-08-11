@@ -1,0 +1,51 @@
+CLUSTAL W --- LocARNA 2.0.0RC8 --- Score: 170531
+
+                             ..((((((((((((((....((((....))))....)).....)))))))))))).....(((....((......))......((.(((((.((((((((((((((.(((((....))))
+NC_050609.1:7493273-7494336  AAGGGUCGAGUGCGGAUCCCCCGCUUCAGCGGCUAAUCGCCUGCGCACUCGGCCCAUCCCUGGCACACUACACAAAGUGACGACGUGGUCCUGUUGGGUGCGGGAAUAGCCGGAUCCGGU
+NW_016033678.1:149239-150329 AAGGGUCGAGUGCGGAUCCCCCGCCUCAGCGGCUAUUCGCCUGCGCACUCGGCCCAUCCCUGGCACACUACACGAAGCGACGACGCGGUCCAGCUGGGUGCGGGAAUAGCCGGAUCCGGU
+                             ..((((((((((((((....((((....))))....)).....)))))))))))).....(((....((......))......((.(((((.((((((((((((((.(((((....))))
+
+                             ).)))).....((...........)).........))))))))))...))))))).......................................((....(((....)))((((..((..
+NC_050609.1:7493273-7494336  UCUUCUAUAACCAGGAUAAACCAAUGGGAGCGGGACGUACUCGGCUGAGGACCCGUCGCCCACACAAGGUCACACCGAAAAAUAAACACGACCAUAUACAGACGAGAGUUUUUCCCGCGC
+NW_016033678.1:149239-150329 UCUUCUCUAACCAGGAUAAGCCCUUGCGAGCGGGACGCACCCGGCUCCGGACCCGCCGCCCACACAAGGCAACACCGAAAGAUACACACGACCAUGAACAGACUAGAGUUUUUCCCGCGC
+                             ).)))).....((...........)).........))))))))))...))))))).......................................((....(((....)))((((..((..
+
+                             ..))..-........(((((((((((....................)))))))))))........((.....)).((((((((....(((...(((((.((((((((.((.((..(((..
+NC_050609.1:7493273-7494336  AAGCCA-UCAGACACGCACUGCCAUGGUCAAAGGUCACGGAAAUCGCAUGGCAGUGUACACCAAAAUCCAUAGUAUCCAAAUCCGAGCCCAUACUGCUGGCCCCGCCGCCAGGAACCGGA
+NW_016033678.1:149239-150329 AAGCCAUUCAGACACGCACUGCCAUGGUCAAAGGUCACGGAAAUCGCAUGGCAGUGUACACCAAAAUCCAGAAUAUCCAAAUCCGAGCCCAUUCUGCUCGCUCCGCCCCCCGGAACCGGC
+                             ..))...........(((((((((((....................)))))))))))........((.....)).((((((((....(((...(((((.((((((((.((.((..(((..
+
+                             ..)))..)).)).))))))))...)))))...)))..--....)))))))).(((.(((.((.....---------...((((..........)))))).))).)))...((.(((.(((
+NC_050609.1:7493273-7494336  AACGGAUCUUGGGGGUGGGGUGAUGGCAGGGCGGGUC--AUUGGAUUUGGGAGCCUAACAUACACAC---------UCUAAGGAAUACAACACCCUUUGCGUUCGGCAAAUCACCUCCGG
+NW_016033678.1:149239-150329 AACGGACCUAGGGGGUGGGGUGGCGGCAGGGCGGGGCCAACUCGGUUUGGGAGCCUAACAUAUAUACACACACUCUUUUAAGGAAUACACCACCCUUUGCGUUCGGCAAAUCACCUCCGG
+                             ..)))..)).)).))))))))...)))))...)))........)))))))).(((.(((.((.................((((..........)))))).))).)))...((.(((.(((
+
+                             ((((((((........((((((..((((((((((((.........((......))((((...))))((((((((......))))))))((((.((.(((((((((((((....((((.((
+NC_050609.1:7493273-7494336  CUGCGAUUAAGGGGCUCAGUGCCAGGGGUUAAUCGACGCACACUCGACCGAUUUCCGUGACAUACGUCUCUGCCAGUUCAGGCAGAGAUCGGUGGACGCGCCGUUCGCCACCAGCCGUGG
+NW_016033678.1:149239-150329 CUGCGAUUAAGGGGCUCAGUGCCAGGGGUUAAUCGGAGCACACUCGACCGAUUUCCGUGACAUACGUCUCUGCCGUUGCAGGCAGAGAUCGGAGGACGCGCCGUUCGCCACCAGCCGGGG
+                             ((((((((........((((((..((((((((((((.........((......))((((...))))((((((((......))))))))((((.((.(((((((((((((....((((.((
+
+                             (((((((((((((.(((.......((.....(((((.((...((((((((((...)).....)))..)))))..)))))))...))..((.....))-..))))).))..))))))))))
+NC_050609.1:7493273-7494336  GCUAUGCAAUGGAUUGAACGAAACAUGCGCCAGAGCCAAUUUUUAUAUUUGACCAUUAAGAAAAACCUAUGAUUUUGCUUUACCAUUCGGACCCACU-AAUCAUCCCAGAUUGCGUAGCC
+NW_016033678.1:149239-150329 GCUAUGCAAUGGAUUGAACGAAACAUGCGCCAGAGCCAAUUUUUAUAUUUGACCAUUAAGAAAAACCUAUGAUUUUGCUUUACCAUUCGGAACCACUGAAUCAUCCCAGAUUGCGUAGCC
+                             (((((((((((((.(((.......((.....(((((.((...((((((((((...)).....)))..)))))..)))))))...))..((.....))...))))).))..))))))))))
+
+                             ).)))).......))))).)))))).))))..)))).......(((((((((((..........)))))))..))))))))))))))))..)))..)))))))))))).)).))).))((
+NC_050609.1:7493273-7494336  CCCGGCGUCCUUCGGCGAUGCGGCGUCGCCAUCCGACCCAUCCUCCAGGAUGCCUUCCAAAAUUGGCAUCUACUGGAUCGAUUAGCCCCCAGCAAAUUGAAUCGCAGCCCGCAGGAGAUU
+NW_016033678.1:149239-150329 CUCGGCGACCGCCGGCGAUGCGGCGUCGCCAUCCGACCCAUCCUCCAGGAUGCCUUCCAAAAUUGGCAUCUACUGGAUCGAUUAGCCCCCAGCAAAUUGAAUCGCAGCCCGCAGGAGAUU
+                             ).)))).......))))).)))))).))))..)))).......(((((((((((..........)))))))..))))))))))))))))..)))..)))))))))))).)).))).))((
+
+                             ((((((((.......((..((.(((((.........(((....(((((((..........)))))))........)))..............)))))...----))....))....----
+NC_050609.1:7493273-7494336  UGGUUUUUAAUCGCCUCAUUUCGUACAAAGAAACACCGCAACAAGAAAACACUGCACAUCGUUUUUUACACCCUUGCGUUAUGUUUUUUGAAUGUAUUUA----AAAAAUGAAAAA----
+NW_016033678.1:149239-150329 UGGUUUUUUAUCGCCUCAUUUCGUACAAAGAGAAACCGCAACAUGAAAACACUGCACAUCGUUUUUAACACCCUGGCGUUAUGUUUUUUGAAUGUAUUUAAAAGAAAAAAGAAAAACAAA
+                             ((((((((.......((..((.(((((.........(((....(((((((..........)))))))........)))..............))))).......))....))........
+
+                             -----.)))))))))).....)))).......))((......))..-.................-.......(((((((.(((.....))).))).)))).....((((........)))
+NC_050609.1:7493273-7494336  -----AAAAAACCAAAUAUAAGAAAAACAAAAUAUGAAAACACACA-AAACACAGAAGAAAACC-AAAAAUAGAAUGUAAGUUUAAAUAAUAUGCUAUUCAAAGAAAUCCAAAACAUGAU
+NW_016033678.1:149239-150329 AAACCAAAAAACCAAAUAUAAGAAAAACAAAAUAUG-GAACACACACAAACACAAAUGAAAACCAAAAAAUAGAAUGUAAGUUUAAAUAAUAUGCUAUUCAAAGAAAUCCAAAACAUGAU
+                             ......)))))))))).....)))).......))((-.....))............................(((((((.(((.....))).))).)))).....((((........)))
+
+                             )..)))......
+NC_050609.1:7493273-7494336  UACCCAUAAAAC
+NW_016033678.1:149239-150329 UACCCAUAAAAC
+                             )..)))......
