@@ -1,4 +1,6 @@
-# Secondary structure prediction of mimi
+# Secondary structure prediction of mimi  [![DOI](https://zenodo.org/badge/395107206.svg)](https://zenodo.org/badge/latestdoi/395107206)
+
+
 
 
 ### <u>Installation of dependencies </u>
